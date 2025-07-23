@@ -1,0 +1,20 @@
+CMakeFiles/smo.elf.dir/Core/Src/sysmem.c.obj: \
+ D:\BLDC\smo\Core\Src\sysmem.c \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\errno.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\errno.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\reent.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\_ansi.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\newlib.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\_newlib_version.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\config.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\machine\ieeefp.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\features.h \
+ d:\gun-tools\arm-embedded-tools\lib\gcc\arm-none-eabi\9.2.1\include\stddef.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\_types.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\machine\_types.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\machine\_default_types.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\lock.h \
+ d:\gun-tools\arm-embedded-tools\lib\gcc\arm-none-eabi\9.2.1\include\stdint.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\stdint.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\_intsup.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\_stdint.h

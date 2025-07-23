@@ -1,0 +1,34 @@
+CMakeFiles/smo.elf.dir/BSP/source/svpwm.c.obj: \
+ D:\BLDC\smo\BSP\source\svpwm.c D:\BLDC\smo\BSP\include/svpwm.h \
+ D:\BLDC\smo\Middlewares\ST\ARM\DSP\Inc/arm_math.h \
+ D:\BLDC\smo\Drivers\CMSIS\Include/cmsis_compiler.h \
+ d:\gun-tools\arm-embedded-tools\lib\gcc\arm-none-eabi\9.2.1\include\stdint.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\stdint.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\machine\_default_types.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\features.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\_newlib_version.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\_intsup.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\_stdint.h \
+ D:\BLDC\smo\Drivers\CMSIS\Include/cmsis_gcc.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\string.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\_ansi.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\newlib.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\config.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\machine\ieeefp.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\reent.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\_ansi.h \
+ d:\gun-tools\arm-embedded-tools\lib\gcc\arm-none-eabi\9.2.1\include\stddef.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\_types.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\machine\_types.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\lock.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\cdefs.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\xlocale.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\strings.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\string.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\math.h \
+ d:\gun-tools\arm-embedded-tools\lib\gcc\arm-none-eabi\9.2.1\include\float.h \
+ d:\gun-tools\arm-embedded-tools\lib\gcc\arm-none-eabi\9.2.1\include-fixed\limits.h \
+ d:\gun-tools\arm-embedded-tools\lib\gcc\arm-none-eabi\9.2.1\include-fixed\syslimits.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\limits.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\syslimits.h \
+ D:\BLDC\smo\BSP\include/param.h
