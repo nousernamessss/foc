@@ -35,6 +35,7 @@
 #include "currentPid.h"
 #include "speedPid.h"
 #include "led.h"
+#include "mb.h"
 #include "SMO.h"
 /* USER CODE END Includes */
 
@@ -111,14 +112,16 @@ int main(void)
   MX_TIM1_Init();
   MX_DAC1_Init();
   MX_FDCAN1_Init();
+  MX_TIM3_Init();
   MX_TIM4_Init();
   /* USER CODE BEGIN 2 */
+  eMBInit(MB_RTU, 0X01, 0x01, 115200, MB_PAR_NONE);
+  eMBEnable();
   paramInit(&motorParam);
   Estimator_Init(&SMO_Controller, 8.f, 150.f, 200.f, 2500.f, motorParam.Rs, motorParam.Ls, motorParam.period, 10.f);
   svpwmParamInit();
   currentPidParamInit(&idParam, &iqParam);
   speedPidParamInit(&speedParam);
-  communicationInit();
   HAL_OPAMP_Start(&hopamp1);
   HAL_OPAMP_Start(&hopamp2);
   HAL_OPAMP_Start(&hopamp3);
@@ -129,13 +132,13 @@ int main(void)
   __HAL_ADC_CLEAR_FLAG( &hadc2, ADC_FLAG_JEOC);
   HAL_ADCEx_InjectedStart_IT(&hadc1);
   HAL_ADCEx_InjectedStart(&hadc2);
-  HAL_TIMEx_HallSensor_Start_IT(&htim4);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    eMBPoll();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

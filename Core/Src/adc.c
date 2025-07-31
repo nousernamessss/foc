@@ -20,11 +20,6 @@
 /* Includes ------------------------------------------------------------------*/
 #include "adc.h"
 
-#include "fdcan.h"
-#include "if.h"
-#include "SMO.h"
-#include "tim.h"
-
 /* USER CODE BEGIN 0 */
 float current[3] = {0.f};
 float speed[3] = {0.f};
@@ -419,7 +414,7 @@ void HAL_ADCEx_InjectedConvCpltCallback(ADC_HandleTypeDef *hadc)
         theta[0] = svpwmParam.theta;
         theta[1] = SMO_Controller.theta_estimated;
         theta[2] = (svpwmParam.theta - SMO_Controller.theta_estimated) * 180.f / PI;
-        sendData(&huart3, current);
+        //sendData(&huart3, current);
         //CAN_SendFloat(&hfdcan1, 0x201, current[0]);
         __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, svpwmParam.tCmp1);
         __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, svpwmParam.tCmp2);

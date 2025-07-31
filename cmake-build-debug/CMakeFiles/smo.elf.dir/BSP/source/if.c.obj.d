@@ -77,4 +77,7 @@ CMakeFiles/smo.elf.dir/BSP/source/if.c.obj: D:\BLDC\smo\BSP\source\if.c \
  D:\BLDC\smo\Core\Inc/main.h D:\BLDC\smo\BSP\include/currentPid.h \
  D:\BLDC\smo\BSP\include/key.h D:\BLDC\smo\BSP\include/led.h \
  D:\BLDC\smo\BSP\include/led.h D:\BLDC\smo\BSP\include/SMO.h \
- D:\BLDC\smo\Core\Inc/tim.h D:\BLDC\smo\BSP\include/speedPid.h
+ D:\BLDC\smo\Core\Inc/tim.h D:\BLDC\smo\BSP\include/speedPid.h \
+ D:\BLDC\smo\modbus/port.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\assert.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\inttypes.h

@@ -34,6 +34,9 @@ extern "C" {
 #include "communication.h"
 #include "svpwm.h"
 #include "currentPid.h"
+#include "if.h"
+#include "SMO.h"
+#include "tim.h"
 /* USER CODE END Includes */
 
 extern ADC_HandleTypeDef hadc1;

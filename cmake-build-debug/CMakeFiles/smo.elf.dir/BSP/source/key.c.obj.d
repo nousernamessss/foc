@@ -72,4 +72,7 @@ CMakeFiles/smo.elf.dir/BSP/source/key.c.obj: D:\BLDC\smo\BSP\source\key.c \
  d:\gun-tools\arm-embedded-tools\lib\gcc\arm-none-eabi\9.2.1\include-fixed\syslimits.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\limits.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\syslimits.h \
+ D:\BLDC\smo\modbus/port.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\assert.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\inttypes.h \
  D:\BLDC\smo\Core\Inc/tim.h D:\BLDC\smo\Core\Inc/main.h

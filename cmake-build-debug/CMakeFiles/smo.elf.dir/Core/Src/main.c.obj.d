@@ -73,10 +73,15 @@ CMakeFiles/smo.elf.dir/Core/Src/main.c.obj: D:\BLDC\smo\Core\Src\main.c \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\syslimits.h \
  D:\BLDC\smo\BSP\include/communication.h D:\BLDC\smo\Core\Inc/usart.h \
  D:\BLDC\smo\BSP\include/svpwm.h D:\BLDC\smo\BSP\include/currentPid.h \
- D:\BLDC\smo\BSP\include/param.h D:\BLDC\smo\Core\Inc/comp.h \
+ D:\BLDC\smo\BSP\include/param.h D:\BLDC\smo\BSP\include/if.h \
+ D:\BLDC\smo\BSP\include/svpwm.h D:\BLDC\smo\BSP\include/SMO.h \
+ D:\BLDC\smo\Core\Inc/tim.h D:\BLDC\smo\Core\Inc/comp.h \
  D:\BLDC\smo\Core\Inc/dac.h D:\BLDC\smo\Core\Inc/dma.h \
  D:\BLDC\smo\Core\Inc/fdcan.h D:\BLDC\smo\Core\Inc/opamp.h \
  D:\BLDC\smo\Core\Inc/tim.h D:\BLDC\smo\Core\Inc/gpio.h \
  D:\BLDC\smo\BSP\include/param.h D:\BLDC\smo\BSP\include/speedPid.h \
- D:\BLDC\smo\BSP\include/svpwm.h D:\BLDC\smo\BSP\include/led.h \
- D:\BLDC\smo\BSP\include/SMO.h
+ D:\BLDC\smo\modbus/port.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\assert.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\inttypes.h \
+ D:\BLDC\smo\BSP\include/led.h D:\BLDC\smo\modbus\include/mb.h \
+ D:\BLDC\smo\modbus\include/mbport.h D:\BLDC\smo\modbus\include/mbproto.h

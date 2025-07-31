@@ -49,11 +49,18 @@ else ()
     add_compile_options(-Og -g)
 endif ()
 
-include_directories(Core/Inc Drivers/STM32G4xx_HAL_Driver/Inc Drivers/STM32G4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32G4xx/Include Drivers/CMSIS/Include BSP/include Middlewares/ST/ARM/DSP/Inc)
+include_directories(Core/Inc Drivers/STM32G4xx_HAL_Driver/Inc Drivers/STM32G4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32G4xx/Include Drivers/CMSIS/Include BSP/include Middlewares/ST/ARM/DSP/Inc
+        modbus/ascii
+        modbus/functions
+        modbus/include
+        modbus/rtu
+        modbus/tcp
+        modbus/)
+
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32G431xx)
 
-file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*" "BSP/*.*" "Middlewares/*.*")
+file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*" "BSP/*.*" "Middlewares/*.*" "modbus/*.*")
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32G431CBUX_FLASH.ld)
 
@@ -71,7 +78,8 @@ add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT}
         BSP/source/if.c
         BSP/include/if.h
         BSP/source/speedPid.c
-        BSP/include/speedPid.h)
+        BSP/include/speedPid.h
+        BSP/source/XMODEM.C)
 
 target_link_libraries(${PROJECT_NAME}.elf ${CMAKE_SOURCE_DIR}/Middlewares/ST/ARM/DSP/Lib/libarm_cortexM4lf_math.a)
 set(HEX_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.hex)

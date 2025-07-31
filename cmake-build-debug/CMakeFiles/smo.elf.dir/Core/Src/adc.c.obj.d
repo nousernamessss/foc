@@ -73,6 +73,5 @@ CMakeFiles/smo.elf.dir/Core/Src/adc.c.obj: D:\BLDC\smo\Core\Src\adc.c \
  D:\BLDC\smo\BSP\include/communication.h D:\BLDC\smo\Core\Inc/main.h \
  D:\BLDC\smo\Core\Inc/usart.h D:\BLDC\smo\BSP\include/svpwm.h \
  D:\BLDC\smo\BSP\include/currentPid.h D:\BLDC\smo\BSP\include/param.h \
- D:\BLDC\smo\Core\Inc/fdcan.h D:\BLDC\smo\BSP\include/if.h \
- D:\BLDC\smo\BSP\include/svpwm.h D:\BLDC\smo\BSP\include/SMO.h \
- D:\BLDC\smo\Core\Inc/tim.h
+ D:\BLDC\smo\BSP\include/if.h D:\BLDC\smo\BSP\include/svpwm.h \
+ D:\BLDC\smo\BSP\include/SMO.h D:\BLDC\smo\Core\Inc/tim.h

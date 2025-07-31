@@ -30,7 +30,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 64,
+				"line" : 71,
 				"parent" : 0
 			},
 			{
@@ -42,25 +42,25 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 60,
+				"line" : 67,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 61,
+				"line" : 68,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 62,
+				"line" : 69,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 76,
+				"line" : 84,
 				"parent" : 0
 			},
 			{
@@ -102,7 +102,7 @@
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 54,
+				"line" : 61,
 				"parent" : 0
 			},
 			{
@@ -222,6 +222,30 @@
 				{
 					"backtrace" : 14,
 					"path" : "D:/BLDC/smo/Middlewares/ST/ARM/DSP/Inc"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/modbus/ascii"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/modbus/functions"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/modbus/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/modbus/rtu"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/modbus/tcp"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/modbus"
 				}
 			],
 			"language" : "C",
@@ -236,7 +260,6 @@
 			"sourceIndexes" : 
 			[
 				9,
-				10,
 				11,
 				12,
 				13,
@@ -244,7 +267,7 @@
 				15,
 				16,
 				17,
-				30,
+				18,
 				31,
 				32,
 				33,
@@ -259,7 +282,7 @@
 				42,
 				43,
 				44,
-				122,
+				45,
 				123,
 				124,
 				125,
@@ -284,7 +307,171 @@
 				144,
 				145,
 				146,
-				147
+				147,
+				148,
+				152,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				168,
+				169,
+				171,
+				172,
+				173,
+				174,
+				176,
+				178
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17 -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-mfpu=fpv4-sp-d16"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-mcpu=cortex-m4"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-mthumb-interwork"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-fmessage-length=0"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 12,
+					"define" : "ARM_MATH_CM4"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "ARM_MATH_MATRIX_CHECK"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "ARM_MATH_ROUNDING"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "STM32G431xx"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/Core/Inc"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/Drivers/CMSIS/Device/ST/STM32G4xx/Include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/BSP/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/Middlewares/ST/ARM/DSP/Inc"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/modbus/ascii"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/modbus/functions"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/modbus/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/modbus/rtu"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/modbus/tcp"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/modbus"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				10
 			]
 		},
 		{
@@ -402,12 +589,36 @@
 				{
 					"backtrace" : 14,
 					"path" : "D:/BLDC/smo/Middlewares/ST/ARM/DSP/Inc"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/modbus/ascii"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/modbus/functions"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/modbus/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/modbus/rtu"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/modbus/tcp"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/BLDC/smo/modbus"
 				}
 			],
 			"language" : "ASM",
 			"sourceIndexes" : 
 			[
-				45
+				46
 			]
 		}
 	],
@@ -470,7 +681,7 @@
 				"role" : "libraries"
 			}
 		],
-		"language" : "C"
+		"language" : "CXX"
 	},
 	"name" : "smo.elf",
 	"nameOnDisk" : "smo.elf",
@@ -494,7 +705,6 @@
 				6,
 				7,
 				8,
-				18,
 				19,
 				20,
 				21,
@@ -506,10 +716,10 @@
 				27,
 				28,
 				29,
-				46,
+				30,
 				47,
 				48,
-				50,
+				49,
 				51,
 				52,
 				53,
@@ -533,7 +743,7 @@
 				71,
 				72,
 				73,
-				75,
+				74,
 				76,
 				77,
 				78,
@@ -579,7 +789,20 @@
 				118,
 				119,
 				120,
-				148
+				121,
+				149,
+				153,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				170,
+				175,
+				177,
+				179
 			]
 		},
 		{
@@ -595,7 +818,7 @@
 				15,
 				16,
 				17,
-				30,
+				18,
 				31,
 				32,
 				33,
@@ -610,7 +833,7 @@
 				42,
 				43,
 				44,
-				122,
+				45,
 				123,
 				124,
 				125,
@@ -635,20 +858,37 @@
 				144,
 				145,
 				146,
-				147
+				147,
+				148,
+				152,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				168,
+				169,
+				171,
+				172,
+				173,
+				174,
+				176,
+				178
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				45,
-				49,
-				74,
-				121,
-				149,
+				46,
+				50,
+				75,
+				122,
 				150,
-				151
+				151,
+				180
 			]
 		}
 	],
@@ -703,6 +943,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "BSP/source/SMO.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "BSP/source/XMODEM.C",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -905,7 +1151,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 1,
+			"compileGroupIndex" : 2,
 			"path" : "Core/Startup/startup_stm32g431cbux.s",
 			"sourceGroupIndex" : 2
 		},
@@ -1459,6 +1705,162 @@
 			"backtrace" : 1,
 			"path" : "Middlewares/Third_Party/ARM/DSP/LICENSE.txt",
 			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modbus/ascii/mbascii.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "modbus/ascii/mbascii.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modbus/functions/mbfunccoils.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modbus/functions/mbfuncdiag.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modbus/functions/mbfuncdisc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modbus/functions/mbfuncholding.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modbus/functions/mbfuncinput.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modbus/functions/mbfuncother.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modbus/functions/mbutils.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "modbus/include/mb.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "modbus/include/mbconfig.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "modbus/include/mbframe.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "modbus/include/mbfunc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "modbus/include/mbport.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "modbus/include/mbproto.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "modbus/include/mbutils.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modbus/mb.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modbus/port.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "modbus/port.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modbus/portevent.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modbus/portserial.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modbus/porttimer.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modbus/rtu/mbcrc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "modbus/rtu/mbcrc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modbus/rtu/mbrtu.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "modbus/rtu/mbrtu.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modbus/tcp/mbtcp.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "modbus/tcp/mbtcp.h",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,

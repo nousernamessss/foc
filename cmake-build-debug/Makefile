@@ -152,6 +152,30 @@ BSP/source/SMO.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/BSP/source/SMO.c.s
 .PHONY : BSP/source/SMO.c.s
 
+BSP/source/XMODEM.obj: BSP/source/XMODEM.C.obj
+.PHONY : BSP/source/XMODEM.obj
+
+# target to build an object file
+BSP/source/XMODEM.C.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/BSP/source/XMODEM.C.obj
+.PHONY : BSP/source/XMODEM.C.obj
+
+BSP/source/XMODEM.i: BSP/source/XMODEM.C.i
+.PHONY : BSP/source/XMODEM.i
+
+# target to preprocess a source file
+BSP/source/XMODEM.C.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/BSP/source/XMODEM.C.i
+.PHONY : BSP/source/XMODEM.C.i
+
+BSP/source/XMODEM.s: BSP/source/XMODEM.C.s
+.PHONY : BSP/source/XMODEM.s
+
+# target to generate assembly for a file
+BSP/source/XMODEM.C.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/BSP/source/XMODEM.C.s
+.PHONY : BSP/source/XMODEM.C.s
+
 BSP/source/communication.obj: BSP/source/communication.c.obj
 .PHONY : BSP/source/communication.obj
 
@@ -1336,6 +1360,390 @@ Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.s
 .PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.s
 
+modbus/ascii/mbascii.obj: modbus/ascii/mbascii.c.obj
+.PHONY : modbus/ascii/mbascii.obj
+
+# target to build an object file
+modbus/ascii/mbascii.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/ascii/mbascii.c.obj
+.PHONY : modbus/ascii/mbascii.c.obj
+
+modbus/ascii/mbascii.i: modbus/ascii/mbascii.c.i
+.PHONY : modbus/ascii/mbascii.i
+
+# target to preprocess a source file
+modbus/ascii/mbascii.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/ascii/mbascii.c.i
+.PHONY : modbus/ascii/mbascii.c.i
+
+modbus/ascii/mbascii.s: modbus/ascii/mbascii.c.s
+.PHONY : modbus/ascii/mbascii.s
+
+# target to generate assembly for a file
+modbus/ascii/mbascii.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/ascii/mbascii.c.s
+.PHONY : modbus/ascii/mbascii.c.s
+
+modbus/functions/mbfunccoils.obj: modbus/functions/mbfunccoils.c.obj
+.PHONY : modbus/functions/mbfunccoils.obj
+
+# target to build an object file
+modbus/functions/mbfunccoils.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/functions/mbfunccoils.c.obj
+.PHONY : modbus/functions/mbfunccoils.c.obj
+
+modbus/functions/mbfunccoils.i: modbus/functions/mbfunccoils.c.i
+.PHONY : modbus/functions/mbfunccoils.i
+
+# target to preprocess a source file
+modbus/functions/mbfunccoils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/functions/mbfunccoils.c.i
+.PHONY : modbus/functions/mbfunccoils.c.i
+
+modbus/functions/mbfunccoils.s: modbus/functions/mbfunccoils.c.s
+.PHONY : modbus/functions/mbfunccoils.s
+
+# target to generate assembly for a file
+modbus/functions/mbfunccoils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/functions/mbfunccoils.c.s
+.PHONY : modbus/functions/mbfunccoils.c.s
+
+modbus/functions/mbfuncdiag.obj: modbus/functions/mbfuncdiag.c.obj
+.PHONY : modbus/functions/mbfuncdiag.obj
+
+# target to build an object file
+modbus/functions/mbfuncdiag.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdiag.c.obj
+.PHONY : modbus/functions/mbfuncdiag.c.obj
+
+modbus/functions/mbfuncdiag.i: modbus/functions/mbfuncdiag.c.i
+.PHONY : modbus/functions/mbfuncdiag.i
+
+# target to preprocess a source file
+modbus/functions/mbfuncdiag.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdiag.c.i
+.PHONY : modbus/functions/mbfuncdiag.c.i
+
+modbus/functions/mbfuncdiag.s: modbus/functions/mbfuncdiag.c.s
+.PHONY : modbus/functions/mbfuncdiag.s
+
+# target to generate assembly for a file
+modbus/functions/mbfuncdiag.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdiag.c.s
+.PHONY : modbus/functions/mbfuncdiag.c.s
+
+modbus/functions/mbfuncdisc.obj: modbus/functions/mbfuncdisc.c.obj
+.PHONY : modbus/functions/mbfuncdisc.obj
+
+# target to build an object file
+modbus/functions/mbfuncdisc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdisc.c.obj
+.PHONY : modbus/functions/mbfuncdisc.c.obj
+
+modbus/functions/mbfuncdisc.i: modbus/functions/mbfuncdisc.c.i
+.PHONY : modbus/functions/mbfuncdisc.i
+
+# target to preprocess a source file
+modbus/functions/mbfuncdisc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdisc.c.i
+.PHONY : modbus/functions/mbfuncdisc.c.i
+
+modbus/functions/mbfuncdisc.s: modbus/functions/mbfuncdisc.c.s
+.PHONY : modbus/functions/mbfuncdisc.s
+
+# target to generate assembly for a file
+modbus/functions/mbfuncdisc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdisc.c.s
+.PHONY : modbus/functions/mbfuncdisc.c.s
+
+modbus/functions/mbfuncholding.obj: modbus/functions/mbfuncholding.c.obj
+.PHONY : modbus/functions/mbfuncholding.obj
+
+# target to build an object file
+modbus/functions/mbfuncholding.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/functions/mbfuncholding.c.obj
+.PHONY : modbus/functions/mbfuncholding.c.obj
+
+modbus/functions/mbfuncholding.i: modbus/functions/mbfuncholding.c.i
+.PHONY : modbus/functions/mbfuncholding.i
+
+# target to preprocess a source file
+modbus/functions/mbfuncholding.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/functions/mbfuncholding.c.i
+.PHONY : modbus/functions/mbfuncholding.c.i
+
+modbus/functions/mbfuncholding.s: modbus/functions/mbfuncholding.c.s
+.PHONY : modbus/functions/mbfuncholding.s
+
+# target to generate assembly for a file
+modbus/functions/mbfuncholding.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/functions/mbfuncholding.c.s
+.PHONY : modbus/functions/mbfuncholding.c.s
+
+modbus/functions/mbfuncinput.obj: modbus/functions/mbfuncinput.c.obj
+.PHONY : modbus/functions/mbfuncinput.obj
+
+# target to build an object file
+modbus/functions/mbfuncinput.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/functions/mbfuncinput.c.obj
+.PHONY : modbus/functions/mbfuncinput.c.obj
+
+modbus/functions/mbfuncinput.i: modbus/functions/mbfuncinput.c.i
+.PHONY : modbus/functions/mbfuncinput.i
+
+# target to preprocess a source file
+modbus/functions/mbfuncinput.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/functions/mbfuncinput.c.i
+.PHONY : modbus/functions/mbfuncinput.c.i
+
+modbus/functions/mbfuncinput.s: modbus/functions/mbfuncinput.c.s
+.PHONY : modbus/functions/mbfuncinput.s
+
+# target to generate assembly for a file
+modbus/functions/mbfuncinput.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/functions/mbfuncinput.c.s
+.PHONY : modbus/functions/mbfuncinput.c.s
+
+modbus/functions/mbfuncother.obj: modbus/functions/mbfuncother.c.obj
+.PHONY : modbus/functions/mbfuncother.obj
+
+# target to build an object file
+modbus/functions/mbfuncother.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/functions/mbfuncother.c.obj
+.PHONY : modbus/functions/mbfuncother.c.obj
+
+modbus/functions/mbfuncother.i: modbus/functions/mbfuncother.c.i
+.PHONY : modbus/functions/mbfuncother.i
+
+# target to preprocess a source file
+modbus/functions/mbfuncother.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/functions/mbfuncother.c.i
+.PHONY : modbus/functions/mbfuncother.c.i
+
+modbus/functions/mbfuncother.s: modbus/functions/mbfuncother.c.s
+.PHONY : modbus/functions/mbfuncother.s
+
+# target to generate assembly for a file
+modbus/functions/mbfuncother.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/functions/mbfuncother.c.s
+.PHONY : modbus/functions/mbfuncother.c.s
+
+modbus/functions/mbutils.obj: modbus/functions/mbutils.c.obj
+.PHONY : modbus/functions/mbutils.obj
+
+# target to build an object file
+modbus/functions/mbutils.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/functions/mbutils.c.obj
+.PHONY : modbus/functions/mbutils.c.obj
+
+modbus/functions/mbutils.i: modbus/functions/mbutils.c.i
+.PHONY : modbus/functions/mbutils.i
+
+# target to preprocess a source file
+modbus/functions/mbutils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/functions/mbutils.c.i
+.PHONY : modbus/functions/mbutils.c.i
+
+modbus/functions/mbutils.s: modbus/functions/mbutils.c.s
+.PHONY : modbus/functions/mbutils.s
+
+# target to generate assembly for a file
+modbus/functions/mbutils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/functions/mbutils.c.s
+.PHONY : modbus/functions/mbutils.c.s
+
+modbus/mb.obj: modbus/mb.c.obj
+.PHONY : modbus/mb.obj
+
+# target to build an object file
+modbus/mb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/mb.c.obj
+.PHONY : modbus/mb.c.obj
+
+modbus/mb.i: modbus/mb.c.i
+.PHONY : modbus/mb.i
+
+# target to preprocess a source file
+modbus/mb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/mb.c.i
+.PHONY : modbus/mb.c.i
+
+modbus/mb.s: modbus/mb.c.s
+.PHONY : modbus/mb.s
+
+# target to generate assembly for a file
+modbus/mb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/mb.c.s
+.PHONY : modbus/mb.c.s
+
+modbus/port.obj: modbus/port.c.obj
+.PHONY : modbus/port.obj
+
+# target to build an object file
+modbus/port.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/port.c.obj
+.PHONY : modbus/port.c.obj
+
+modbus/port.i: modbus/port.c.i
+.PHONY : modbus/port.i
+
+# target to preprocess a source file
+modbus/port.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/port.c.i
+.PHONY : modbus/port.c.i
+
+modbus/port.s: modbus/port.c.s
+.PHONY : modbus/port.s
+
+# target to generate assembly for a file
+modbus/port.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/port.c.s
+.PHONY : modbus/port.c.s
+
+modbus/portevent.obj: modbus/portevent.c.obj
+.PHONY : modbus/portevent.obj
+
+# target to build an object file
+modbus/portevent.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/portevent.c.obj
+.PHONY : modbus/portevent.c.obj
+
+modbus/portevent.i: modbus/portevent.c.i
+.PHONY : modbus/portevent.i
+
+# target to preprocess a source file
+modbus/portevent.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/portevent.c.i
+.PHONY : modbus/portevent.c.i
+
+modbus/portevent.s: modbus/portevent.c.s
+.PHONY : modbus/portevent.s
+
+# target to generate assembly for a file
+modbus/portevent.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/portevent.c.s
+.PHONY : modbus/portevent.c.s
+
+modbus/portserial.obj: modbus/portserial.c.obj
+.PHONY : modbus/portserial.obj
+
+# target to build an object file
+modbus/portserial.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/portserial.c.obj
+.PHONY : modbus/portserial.c.obj
+
+modbus/portserial.i: modbus/portserial.c.i
+.PHONY : modbus/portserial.i
+
+# target to preprocess a source file
+modbus/portserial.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/portserial.c.i
+.PHONY : modbus/portserial.c.i
+
+modbus/portserial.s: modbus/portserial.c.s
+.PHONY : modbus/portserial.s
+
+# target to generate assembly for a file
+modbus/portserial.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/portserial.c.s
+.PHONY : modbus/portserial.c.s
+
+modbus/porttimer.obj: modbus/porttimer.c.obj
+.PHONY : modbus/porttimer.obj
+
+# target to build an object file
+modbus/porttimer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/porttimer.c.obj
+.PHONY : modbus/porttimer.c.obj
+
+modbus/porttimer.i: modbus/porttimer.c.i
+.PHONY : modbus/porttimer.i
+
+# target to preprocess a source file
+modbus/porttimer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/porttimer.c.i
+.PHONY : modbus/porttimer.c.i
+
+modbus/porttimer.s: modbus/porttimer.c.s
+.PHONY : modbus/porttimer.s
+
+# target to generate assembly for a file
+modbus/porttimer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/porttimer.c.s
+.PHONY : modbus/porttimer.c.s
+
+modbus/rtu/mbcrc.obj: modbus/rtu/mbcrc.c.obj
+.PHONY : modbus/rtu/mbcrc.obj
+
+# target to build an object file
+modbus/rtu/mbcrc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/rtu/mbcrc.c.obj
+.PHONY : modbus/rtu/mbcrc.c.obj
+
+modbus/rtu/mbcrc.i: modbus/rtu/mbcrc.c.i
+.PHONY : modbus/rtu/mbcrc.i
+
+# target to preprocess a source file
+modbus/rtu/mbcrc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/rtu/mbcrc.c.i
+.PHONY : modbus/rtu/mbcrc.c.i
+
+modbus/rtu/mbcrc.s: modbus/rtu/mbcrc.c.s
+.PHONY : modbus/rtu/mbcrc.s
+
+# target to generate assembly for a file
+modbus/rtu/mbcrc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/rtu/mbcrc.c.s
+.PHONY : modbus/rtu/mbcrc.c.s
+
+modbus/rtu/mbrtu.obj: modbus/rtu/mbrtu.c.obj
+.PHONY : modbus/rtu/mbrtu.obj
+
+# target to build an object file
+modbus/rtu/mbrtu.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/rtu/mbrtu.c.obj
+.PHONY : modbus/rtu/mbrtu.c.obj
+
+modbus/rtu/mbrtu.i: modbus/rtu/mbrtu.c.i
+.PHONY : modbus/rtu/mbrtu.i
+
+# target to preprocess a source file
+modbus/rtu/mbrtu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/rtu/mbrtu.c.i
+.PHONY : modbus/rtu/mbrtu.c.i
+
+modbus/rtu/mbrtu.s: modbus/rtu/mbrtu.c.s
+.PHONY : modbus/rtu/mbrtu.s
+
+# target to generate assembly for a file
+modbus/rtu/mbrtu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/rtu/mbrtu.c.s
+.PHONY : modbus/rtu/mbrtu.c.s
+
+modbus/tcp/mbtcp.obj: modbus/tcp/mbtcp.c.obj
+.PHONY : modbus/tcp/mbtcp.obj
+
+# target to build an object file
+modbus/tcp/mbtcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/tcp/mbtcp.c.obj
+.PHONY : modbus/tcp/mbtcp.c.obj
+
+modbus/tcp/mbtcp.i: modbus/tcp/mbtcp.c.i
+.PHONY : modbus/tcp/mbtcp.i
+
+# target to preprocess a source file
+modbus/tcp/mbtcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/tcp/mbtcp.c.i
+.PHONY : modbus/tcp/mbtcp.c.i
+
+modbus/tcp/mbtcp.s: modbus/tcp/mbtcp.c.s
+.PHONY : modbus/tcp/mbtcp.s
+
+# target to generate assembly for a file
+modbus/tcp/mbtcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/modbus/tcp/mbtcp.c.s
+.PHONY : modbus/tcp/mbtcp.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1348,6 +1756,9 @@ help:
 	@echo ... BSP/source/SMO.obj
 	@echo ... BSP/source/SMO.i
 	@echo ... BSP/source/SMO.s
+	@echo ... BSP/source/XMODEM.obj
+	@echo ... BSP/source/XMODEM.i
+	@echo ... BSP/source/XMODEM.s
 	@echo ... BSP/source/communication.obj
 	@echo ... BSP/source/communication.i
 	@echo ... BSP/source/communication.s
@@ -1496,6 +1907,54 @@ help:
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.obj
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.i
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.s
+	@echo ... modbus/ascii/mbascii.obj
+	@echo ... modbus/ascii/mbascii.i
+	@echo ... modbus/ascii/mbascii.s
+	@echo ... modbus/functions/mbfunccoils.obj
+	@echo ... modbus/functions/mbfunccoils.i
+	@echo ... modbus/functions/mbfunccoils.s
+	@echo ... modbus/functions/mbfuncdiag.obj
+	@echo ... modbus/functions/mbfuncdiag.i
+	@echo ... modbus/functions/mbfuncdiag.s
+	@echo ... modbus/functions/mbfuncdisc.obj
+	@echo ... modbus/functions/mbfuncdisc.i
+	@echo ... modbus/functions/mbfuncdisc.s
+	@echo ... modbus/functions/mbfuncholding.obj
+	@echo ... modbus/functions/mbfuncholding.i
+	@echo ... modbus/functions/mbfuncholding.s
+	@echo ... modbus/functions/mbfuncinput.obj
+	@echo ... modbus/functions/mbfuncinput.i
+	@echo ... modbus/functions/mbfuncinput.s
+	@echo ... modbus/functions/mbfuncother.obj
+	@echo ... modbus/functions/mbfuncother.i
+	@echo ... modbus/functions/mbfuncother.s
+	@echo ... modbus/functions/mbutils.obj
+	@echo ... modbus/functions/mbutils.i
+	@echo ... modbus/functions/mbutils.s
+	@echo ... modbus/mb.obj
+	@echo ... modbus/mb.i
+	@echo ... modbus/mb.s
+	@echo ... modbus/port.obj
+	@echo ... modbus/port.i
+	@echo ... modbus/port.s
+	@echo ... modbus/portevent.obj
+	@echo ... modbus/portevent.i
+	@echo ... modbus/portevent.s
+	@echo ... modbus/portserial.obj
+	@echo ... modbus/portserial.i
+	@echo ... modbus/portserial.s
+	@echo ... modbus/porttimer.obj
+	@echo ... modbus/porttimer.i
+	@echo ... modbus/porttimer.s
+	@echo ... modbus/rtu/mbcrc.obj
+	@echo ... modbus/rtu/mbcrc.i
+	@echo ... modbus/rtu/mbcrc.s
+	@echo ... modbus/rtu/mbrtu.obj
+	@echo ... modbus/rtu/mbrtu.i
+	@echo ... modbus/rtu/mbrtu.s
+	@echo ... modbus/tcp/mbtcp.obj
+	@echo ... modbus/tcp/mbtcp.i
+	@echo ... modbus/tcp/mbtcp.s
 .PHONY : help
 
 

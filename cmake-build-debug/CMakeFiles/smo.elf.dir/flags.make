@@ -3,15 +3,22 @@
 
 # compile ASM with D:/GUN-TOOLS/arm-embedded-tools/bin/arm-none-eabi-gcc.exe
 # compile C with D:/GUN-TOOLS/arm-embedded-tools/bin/arm-none-eabi-gcc.exe
+# compile CXX with D:/GUN-TOOLS/arm-embedded-tools/bin/arm-none-eabi-g++.exe
 ASM_DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32G431xx -DUSE_HAL_DRIVER
 
-ASM_INCLUDES = -ID:\BLDC\smo\Core\Inc -ID:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc -ID:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy -ID:\BLDC\smo\Drivers\CMSIS\Device\ST\STM32G4xx\Include -ID:\BLDC\smo\Drivers\CMSIS\Include -ID:\BLDC\smo\BSP\include -ID:\BLDC\smo\Middlewares\ST\ARM\DSP\Inc
+ASM_INCLUDES = -ID:\BLDC\smo\Core\Inc -ID:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc -ID:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy -ID:\BLDC\smo\Drivers\CMSIS\Device\ST\STM32G4xx\Include -ID:\BLDC\smo\Drivers\CMSIS\Include -ID:\BLDC\smo\BSP\include -ID:\BLDC\smo\Middlewares\ST\ARM\DSP\Inc -ID:\BLDC\smo\modbus\ascii -ID:\BLDC\smo\modbus\functions -ID:\BLDC\smo\modbus\include -ID:\BLDC\smo\modbus\rtu -ID:\BLDC\smo\modbus\tcp -ID:\BLDC\smo\modbus
 
 ASM_FLAGS = -g -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -x assembler-with-cpp -Og -g
 
 C_DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32G431xx -DUSE_HAL_DRIVER
 
-C_INCLUDES = -ID:\BLDC\smo\Core\Inc -ID:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc -ID:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy -ID:\BLDC\smo\Drivers\CMSIS\Device\ST\STM32G4xx\Include -ID:\BLDC\smo\Drivers\CMSIS\Include -ID:\BLDC\smo\BSP\include -ID:\BLDC\smo\Middlewares\ST\ARM\DSP\Inc
+C_INCLUDES = -ID:\BLDC\smo\Core\Inc -ID:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc -ID:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy -ID:\BLDC\smo\Drivers\CMSIS\Device\ST\STM32G4xx\Include -ID:\BLDC\smo\Drivers\CMSIS\Include -ID:\BLDC\smo\BSP\include -ID:\BLDC\smo\Middlewares\ST\ARM\DSP\Inc -ID:\BLDC\smo\modbus\ascii -ID:\BLDC\smo\modbus\functions -ID:\BLDC\smo\modbus\include -ID:\BLDC\smo\modbus\rtu -ID:\BLDC\smo\modbus\tcp -ID:\BLDC\smo\modbus
 
 C_FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
+
+CXX_DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32G431xx -DUSE_HAL_DRIVER
+
+CXX_INCLUDES = -ID:\BLDC\smo\Core\Inc -ID:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc -ID:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy -ID:\BLDC\smo\Drivers\CMSIS\Device\ST\STM32G4xx\Include -ID:\BLDC\smo\Drivers\CMSIS\Include -ID:\BLDC\smo\BSP\include -ID:\BLDC\smo\Middlewares\ST\ARM\DSP\Inc -ID:\BLDC\smo\modbus\ascii -ID:\BLDC\smo\modbus\functions -ID:\BLDC\smo\modbus\include -ID:\BLDC\smo\modbus\rtu -ID:\BLDC\smo\modbus\tcp -ID:\BLDC\smo\modbus
+
+CXX_FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
 

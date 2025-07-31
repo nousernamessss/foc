@@ -82,10 +82,24 @@ CMakeFiles/smo.elf.dir/BSP/source/SMO.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/smo.elf.dir/BSP/source/SMO.c.s"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\BLDC\smo\BSP\source\SMO.c -o CMakeFiles\smo.elf.dir\BSP\source\SMO.c.s
 
+CMakeFiles/smo.elf.dir/BSP/source/XMODEM.C.obj: CMakeFiles/smo.elf.dir/flags.make
+CMakeFiles/smo.elf.dir/BSP/source/XMODEM.C.obj: D:/BLDC/smo/BSP/source/XMODEM.C
+CMakeFiles/smo.elf.dir/BSP/source/XMODEM.C.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/smo.elf.dir/BSP/source/XMODEM.C.obj"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/BSP/source/XMODEM.C.obj -MF CMakeFiles\smo.elf.dir\BSP\source\XMODEM.C.obj.d -o CMakeFiles\smo.elf.dir\BSP\source\XMODEM.C.obj -c D:\BLDC\smo\BSP\source\XMODEM.C
+
+CMakeFiles/smo.elf.dir/BSP/source/XMODEM.C.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/smo.elf.dir/BSP/source/XMODEM.C.i"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\BLDC\smo\BSP\source\XMODEM.C > CMakeFiles\smo.elf.dir\BSP\source\XMODEM.C.i
+
+CMakeFiles/smo.elf.dir/BSP/source/XMODEM.C.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/smo.elf.dir/BSP/source/XMODEM.C.s"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\BLDC\smo\BSP\source\XMODEM.C -o CMakeFiles\smo.elf.dir\BSP\source\XMODEM.C.s
+
 CMakeFiles/smo.elf.dir/BSP/source/communication.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/BSP/source/communication.c.obj: D:/BLDC/smo/BSP/source/communication.c
 CMakeFiles/smo.elf.dir/BSP/source/communication.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/smo.elf.dir/BSP/source/communication.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/smo.elf.dir/BSP/source/communication.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/BSP/source/communication.c.obj -MF CMakeFiles\smo.elf.dir\BSP\source\communication.c.obj.d -o CMakeFiles\smo.elf.dir\BSP\source\communication.c.obj -c D:\BLDC\smo\BSP\source\communication.c
 
 CMakeFiles/smo.elf.dir/BSP/source/communication.c.i: cmake_force
@@ -99,7 +113,7 @@ CMakeFiles/smo.elf.dir/BSP/source/communication.c.s: cmake_force
 CMakeFiles/smo.elf.dir/BSP/source/currentPid.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/BSP/source/currentPid.c.obj: D:/BLDC/smo/BSP/source/currentPid.c
 CMakeFiles/smo.elf.dir/BSP/source/currentPid.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/smo.elf.dir/BSP/source/currentPid.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/smo.elf.dir/BSP/source/currentPid.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/BSP/source/currentPid.c.obj -MF CMakeFiles\smo.elf.dir\BSP\source\currentPid.c.obj.d -o CMakeFiles\smo.elf.dir\BSP\source\currentPid.c.obj -c D:\BLDC\smo\BSP\source\currentPid.c
 
 CMakeFiles/smo.elf.dir/BSP/source/currentPid.c.i: cmake_force
@@ -113,7 +127,7 @@ CMakeFiles/smo.elf.dir/BSP/source/currentPid.c.s: cmake_force
 CMakeFiles/smo.elf.dir/BSP/source/if.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/BSP/source/if.c.obj: D:/BLDC/smo/BSP/source/if.c
 CMakeFiles/smo.elf.dir/BSP/source/if.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/smo.elf.dir/BSP/source/if.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/smo.elf.dir/BSP/source/if.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/BSP/source/if.c.obj -MF CMakeFiles\smo.elf.dir\BSP\source\if.c.obj.d -o CMakeFiles\smo.elf.dir\BSP\source\if.c.obj -c D:\BLDC\smo\BSP\source\if.c
 
 CMakeFiles/smo.elf.dir/BSP/source/if.c.i: cmake_force
@@ -127,7 +141,7 @@ CMakeFiles/smo.elf.dir/BSP/source/if.c.s: cmake_force
 CMakeFiles/smo.elf.dir/BSP/source/key.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/BSP/source/key.c.obj: D:/BLDC/smo/BSP/source/key.c
 CMakeFiles/smo.elf.dir/BSP/source/key.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/smo.elf.dir/BSP/source/key.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/smo.elf.dir/BSP/source/key.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/BSP/source/key.c.obj -MF CMakeFiles\smo.elf.dir\BSP\source\key.c.obj.d -o CMakeFiles\smo.elf.dir\BSP\source\key.c.obj -c D:\BLDC\smo\BSP\source\key.c
 
 CMakeFiles/smo.elf.dir/BSP/source/key.c.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/smo.elf.dir/BSP/source/key.c.s: cmake_force
 CMakeFiles/smo.elf.dir/BSP/source/led.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/BSP/source/led.c.obj: D:/BLDC/smo/BSP/source/led.c
 CMakeFiles/smo.elf.dir/BSP/source/led.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/smo.elf.dir/BSP/source/led.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/smo.elf.dir/BSP/source/led.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/BSP/source/led.c.obj -MF CMakeFiles\smo.elf.dir\BSP\source\led.c.obj.d -o CMakeFiles\smo.elf.dir\BSP\source\led.c.obj -c D:\BLDC\smo\BSP\source\led.c
 
 CMakeFiles/smo.elf.dir/BSP/source/led.c.i: cmake_force
@@ -155,7 +169,7 @@ CMakeFiles/smo.elf.dir/BSP/source/led.c.s: cmake_force
 CMakeFiles/smo.elf.dir/BSP/source/param.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/BSP/source/param.c.obj: D:/BLDC/smo/BSP/source/param.c
 CMakeFiles/smo.elf.dir/BSP/source/param.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/smo.elf.dir/BSP/source/param.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/smo.elf.dir/BSP/source/param.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/BSP/source/param.c.obj -MF CMakeFiles\smo.elf.dir\BSP\source\param.c.obj.d -o CMakeFiles\smo.elf.dir\BSP\source\param.c.obj -c D:\BLDC\smo\BSP\source\param.c
 
 CMakeFiles/smo.elf.dir/BSP/source/param.c.i: cmake_force
@@ -169,7 +183,7 @@ CMakeFiles/smo.elf.dir/BSP/source/param.c.s: cmake_force
 CMakeFiles/smo.elf.dir/BSP/source/speedPid.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/BSP/source/speedPid.c.obj: D:/BLDC/smo/BSP/source/speedPid.c
 CMakeFiles/smo.elf.dir/BSP/source/speedPid.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/smo.elf.dir/BSP/source/speedPid.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/smo.elf.dir/BSP/source/speedPid.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/BSP/source/speedPid.c.obj -MF CMakeFiles\smo.elf.dir\BSP\source\speedPid.c.obj.d -o CMakeFiles\smo.elf.dir\BSP\source\speedPid.c.obj -c D:\BLDC\smo\BSP\source\speedPid.c
 
 CMakeFiles/smo.elf.dir/BSP/source/speedPid.c.i: cmake_force
@@ -183,7 +197,7 @@ CMakeFiles/smo.elf.dir/BSP/source/speedPid.c.s: cmake_force
 CMakeFiles/smo.elf.dir/BSP/source/svpwm.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/BSP/source/svpwm.c.obj: D:/BLDC/smo/BSP/source/svpwm.c
 CMakeFiles/smo.elf.dir/BSP/source/svpwm.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/smo.elf.dir/BSP/source/svpwm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/smo.elf.dir/BSP/source/svpwm.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/BSP/source/svpwm.c.obj -MF CMakeFiles\smo.elf.dir\BSP\source\svpwm.c.obj.d -o CMakeFiles\smo.elf.dir\BSP\source\svpwm.c.obj -c D:\BLDC\smo\BSP\source\svpwm.c
 
 CMakeFiles/smo.elf.dir/BSP/source/svpwm.c.i: cmake_force
@@ -197,7 +211,7 @@ CMakeFiles/smo.elf.dir/BSP/source/svpwm.c.s: cmake_force
 CMakeFiles/smo.elf.dir/Core/Src/adc.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Core/Src/adc.c.obj: D:/BLDC/smo/Core/Src/adc.c
 CMakeFiles/smo.elf.dir/Core/Src/adc.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/smo.elf.dir/Core/Src/adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/smo.elf.dir/Core/Src/adc.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Core/Src/adc.c.obj -MF CMakeFiles\smo.elf.dir\Core\Src\adc.c.obj.d -o CMakeFiles\smo.elf.dir\Core\Src\adc.c.obj -c D:\BLDC\smo\Core\Src\adc.c
 
 CMakeFiles/smo.elf.dir/Core/Src/adc.c.i: cmake_force
@@ -211,7 +225,7 @@ CMakeFiles/smo.elf.dir/Core/Src/adc.c.s: cmake_force
 CMakeFiles/smo.elf.dir/Core/Src/comp.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Core/Src/comp.c.obj: D:/BLDC/smo/Core/Src/comp.c
 CMakeFiles/smo.elf.dir/Core/Src/comp.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/smo.elf.dir/Core/Src/comp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/smo.elf.dir/Core/Src/comp.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Core/Src/comp.c.obj -MF CMakeFiles\smo.elf.dir\Core\Src\comp.c.obj.d -o CMakeFiles\smo.elf.dir\Core\Src\comp.c.obj -c D:\BLDC\smo\Core\Src\comp.c
 
 CMakeFiles/smo.elf.dir/Core/Src/comp.c.i: cmake_force
@@ -225,7 +239,7 @@ CMakeFiles/smo.elf.dir/Core/Src/comp.c.s: cmake_force
 CMakeFiles/smo.elf.dir/Core/Src/dac.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Core/Src/dac.c.obj: D:/BLDC/smo/Core/Src/dac.c
 CMakeFiles/smo.elf.dir/Core/Src/dac.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/smo.elf.dir/Core/Src/dac.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/smo.elf.dir/Core/Src/dac.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Core/Src/dac.c.obj -MF CMakeFiles\smo.elf.dir\Core\Src\dac.c.obj.d -o CMakeFiles\smo.elf.dir\Core\Src\dac.c.obj -c D:\BLDC\smo\Core\Src\dac.c
 
 CMakeFiles/smo.elf.dir/Core/Src/dac.c.i: cmake_force
@@ -239,7 +253,7 @@ CMakeFiles/smo.elf.dir/Core/Src/dac.c.s: cmake_force
 CMakeFiles/smo.elf.dir/Core/Src/dma.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Core/Src/dma.c.obj: D:/BLDC/smo/Core/Src/dma.c
 CMakeFiles/smo.elf.dir/Core/Src/dma.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/smo.elf.dir/Core/Src/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/smo.elf.dir/Core/Src/dma.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Core/Src/dma.c.obj -MF CMakeFiles\smo.elf.dir\Core\Src\dma.c.obj.d -o CMakeFiles\smo.elf.dir\Core\Src\dma.c.obj -c D:\BLDC\smo\Core\Src\dma.c
 
 CMakeFiles/smo.elf.dir/Core/Src/dma.c.i: cmake_force
@@ -253,7 +267,7 @@ CMakeFiles/smo.elf.dir/Core/Src/dma.c.s: cmake_force
 CMakeFiles/smo.elf.dir/Core/Src/fdcan.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Core/Src/fdcan.c.obj: D:/BLDC/smo/Core/Src/fdcan.c
 CMakeFiles/smo.elf.dir/Core/Src/fdcan.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/smo.elf.dir/Core/Src/fdcan.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/smo.elf.dir/Core/Src/fdcan.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Core/Src/fdcan.c.obj -MF CMakeFiles\smo.elf.dir\Core\Src\fdcan.c.obj.d -o CMakeFiles\smo.elf.dir\Core\Src\fdcan.c.obj -c D:\BLDC\smo\Core\Src\fdcan.c
 
 CMakeFiles/smo.elf.dir/Core/Src/fdcan.c.i: cmake_force
@@ -267,7 +281,7 @@ CMakeFiles/smo.elf.dir/Core/Src/fdcan.c.s: cmake_force
 CMakeFiles/smo.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Core/Src/gpio.c.obj: D:/BLDC/smo/Core/Src/gpio.c
 CMakeFiles/smo.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/smo.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/smo.elf.dir/Core/Src/gpio.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\smo.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\smo.elf.dir\Core\Src\gpio.c.obj -c D:\BLDC\smo\Core\Src\gpio.c
 
 CMakeFiles/smo.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -281,7 +295,7 @@ CMakeFiles/smo.elf.dir/Core/Src/gpio.c.s: cmake_force
 CMakeFiles/smo.elf.dir/Core/Src/main.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Core/Src/main.c.obj: D:/BLDC/smo/Core/Src/main.c
 CMakeFiles/smo.elf.dir/Core/Src/main.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/smo.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/smo.elf.dir/Core/Src/main.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\smo.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\smo.elf.dir\Core\Src\main.c.obj -c D:\BLDC\smo\Core\Src\main.c
 
 CMakeFiles/smo.elf.dir/Core/Src/main.c.i: cmake_force
@@ -295,7 +309,7 @@ CMakeFiles/smo.elf.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/smo.elf.dir/Core/Src/opamp.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Core/Src/opamp.c.obj: D:/BLDC/smo/Core/Src/opamp.c
 CMakeFiles/smo.elf.dir/Core/Src/opamp.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/smo.elf.dir/Core/Src/opamp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/smo.elf.dir/Core/Src/opamp.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Core/Src/opamp.c.obj -MF CMakeFiles\smo.elf.dir\Core\Src\opamp.c.obj.d -o CMakeFiles\smo.elf.dir\Core\Src\opamp.c.obj -c D:\BLDC\smo\Core\Src\opamp.c
 
 CMakeFiles/smo.elf.dir/Core/Src/opamp.c.i: cmake_force
@@ -309,7 +323,7 @@ CMakeFiles/smo.elf.dir/Core/Src/opamp.c.s: cmake_force
 CMakeFiles/smo.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj: D:/BLDC/smo/Core/Src/stm32g4xx_hal_msp.c
 CMakeFiles/smo.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/smo.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/smo.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj -MF CMakeFiles\smo.elf.dir\Core\Src\stm32g4xx_hal_msp.c.obj.d -o CMakeFiles\smo.elf.dir\Core\Src\stm32g4xx_hal_msp.c.obj -c D:\BLDC\smo\Core\Src\stm32g4xx_hal_msp.c
 
 CMakeFiles/smo.elf.dir/Core/Src/stm32g4xx_hal_msp.c.i: cmake_force
@@ -323,7 +337,7 @@ CMakeFiles/smo.elf.dir/Core/Src/stm32g4xx_hal_msp.c.s: cmake_force
 CMakeFiles/smo.elf.dir/Core/Src/stm32g4xx_it.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Core/Src/stm32g4xx_it.c.obj: D:/BLDC/smo/Core/Src/stm32g4xx_it.c
 CMakeFiles/smo.elf.dir/Core/Src/stm32g4xx_it.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/smo.elf.dir/Core/Src/stm32g4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/smo.elf.dir/Core/Src/stm32g4xx_it.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Core/Src/stm32g4xx_it.c.obj -MF CMakeFiles\smo.elf.dir\Core\Src\stm32g4xx_it.c.obj.d -o CMakeFiles\smo.elf.dir\Core\Src\stm32g4xx_it.c.obj -c D:\BLDC\smo\Core\Src\stm32g4xx_it.c
 
 CMakeFiles/smo.elf.dir/Core/Src/stm32g4xx_it.c.i: cmake_force
@@ -337,7 +351,7 @@ CMakeFiles/smo.elf.dir/Core/Src/stm32g4xx_it.c.s: cmake_force
 CMakeFiles/smo.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Core/Src/syscalls.c.obj: D:/BLDC/smo/Core/Src/syscalls.c
 CMakeFiles/smo.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/smo.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/smo.elf.dir/Core/Src/syscalls.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\smo.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\smo.elf.dir\Core\Src\syscalls.c.obj -c D:\BLDC\smo\Core\Src\syscalls.c
 
 CMakeFiles/smo.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -351,7 +365,7 @@ CMakeFiles/smo.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/smo.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Core/Src/sysmem.c.obj: D:/BLDC/smo/Core/Src/sysmem.c
 CMakeFiles/smo.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/smo.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/smo.elf.dir/Core/Src/sysmem.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\smo.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\smo.elf.dir\Core\Src\sysmem.c.obj -c D:\BLDC\smo\Core\Src\sysmem.c
 
 CMakeFiles/smo.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -365,7 +379,7 @@ CMakeFiles/smo.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/smo.elf.dir/Core/Src/system_stm32g4xx.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Core/Src/system_stm32g4xx.c.obj: D:/BLDC/smo/Core/Src/system_stm32g4xx.c
 CMakeFiles/smo.elf.dir/Core/Src/system_stm32g4xx.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/smo.elf.dir/Core/Src/system_stm32g4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/smo.elf.dir/Core/Src/system_stm32g4xx.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Core/Src/system_stm32g4xx.c.obj -MF CMakeFiles\smo.elf.dir\Core\Src\system_stm32g4xx.c.obj.d -o CMakeFiles\smo.elf.dir\Core\Src\system_stm32g4xx.c.obj -c D:\BLDC\smo\Core\Src\system_stm32g4xx.c
 
 CMakeFiles/smo.elf.dir/Core/Src/system_stm32g4xx.c.i: cmake_force
@@ -379,7 +393,7 @@ CMakeFiles/smo.elf.dir/Core/Src/system_stm32g4xx.c.s: cmake_force
 CMakeFiles/smo.elf.dir/Core/Src/tim.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Core/Src/tim.c.obj: D:/BLDC/smo/Core/Src/tim.c
 CMakeFiles/smo.elf.dir/Core/Src/tim.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/smo.elf.dir/Core/Src/tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/smo.elf.dir/Core/Src/tim.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Core/Src/tim.c.obj -MF CMakeFiles\smo.elf.dir\Core\Src\tim.c.obj.d -o CMakeFiles\smo.elf.dir\Core\Src\tim.c.obj -c D:\BLDC\smo\Core\Src\tim.c
 
 CMakeFiles/smo.elf.dir/Core/Src/tim.c.i: cmake_force
@@ -393,7 +407,7 @@ CMakeFiles/smo.elf.dir/Core/Src/tim.c.s: cmake_force
 CMakeFiles/smo.elf.dir/Core/Src/usart.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Core/Src/usart.c.obj: D:/BLDC/smo/Core/Src/usart.c
 CMakeFiles/smo.elf.dir/Core/Src/usart.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/smo.elf.dir/Core/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/smo.elf.dir/Core/Src/usart.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\smo.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\smo.elf.dir\Core\Src\usart.c.obj -c D:\BLDC\smo\Core\Src\usart.c
 
 CMakeFiles/smo.elf.dir/Core/Src/usart.c.i: cmake_force
@@ -406,7 +420,7 @@ CMakeFiles/smo.elf.dir/Core/Src/usart.c.s: cmake_force
 
 CMakeFiles/smo.elf.dir/Core/Startup/startup_stm32g431cbux.s.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Core/Startup/startup_stm32g431cbux.s.obj: D:/BLDC/smo/Core/Startup/startup_stm32g431cbux.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object CMakeFiles/smo.elf.dir/Core/Startup/startup_stm32g431cbux.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building ASM object CMakeFiles/smo.elf.dir/Core/Startup/startup_stm32g431cbux.s.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\smo.elf.dir\Core\Startup\startup_stm32g431cbux.s.obj -c D:\BLDC\smo\Core\Startup\startup_stm32g431cbux.s
 
 CMakeFiles/smo.elf.dir/Core/Startup/startup_stm32g431cbux.s.i: cmake_force
@@ -420,7 +434,7 @@ CMakeFiles/smo.elf.dir/Core/Startup/startup_stm32g431cbux.s.s: cmake_force
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.i: cmake_force
@@ -434,7 +448,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.s: cmake
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_adc.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_adc.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_adc.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.i: cmake_force
@@ -448,7 +462,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.s: c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_adc_ex.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_adc_ex.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_adc_ex.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.i: cmake_force
@@ -462,7 +476,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.s
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_comp.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_comp.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_comp.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c.i: cmake_force
@@ -476,7 +490,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c.s: 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_cortex.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_cortex.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_cortex.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.i: cmake_force
@@ -490,7 +504,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.s
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_dac.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_dac.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_dac.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac.c.i: cmake_force
@@ -504,7 +518,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac.c.s: c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac_ex.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac_ex.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac_ex.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac_ex.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac_ex.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac_ex.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_dac_ex.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_dac_ex.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_dac_ex.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac_ex.c.i: cmake_force
@@ -518,7 +532,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac_ex.c.s
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_dma.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_dma.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_dma.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.i: cmake_force
@@ -532,7 +546,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.s: c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_dma_ex.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_dma_ex.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_dma_ex.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.i: cmake_force
@@ -546,7 +560,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.s
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_exti.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_exti.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_exti.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.i: cmake_force
@@ -560,7 +574,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.s: 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_fdcan.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_fdcan.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_fdcan.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.i: cmake_force
@@ -574,7 +588,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.s:
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.i: cmake_force
@@ -588,7 +602,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.s:
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash_ex.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash_ex.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash_ex.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.i: cmake_force
@@ -602,7 +616,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash_ramfunc.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash_ramfunc.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -616,7 +630,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramf
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_gpio.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_gpio.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_gpio.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.i: cmake_force
@@ -630,7 +644,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.s: 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_opamp.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_opamp.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_opamp.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c.i: cmake_force
@@ -644,7 +658,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c.s:
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_opamp_ex.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_opamp_ex.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_opamp_ex.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c.i: cmake_force
@@ -658,7 +672,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_pwr.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_pwr.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_pwr.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.i: cmake_force
@@ -672,7 +686,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.s: c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_pwr_ex.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_pwr_ex.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.i: cmake_force
@@ -686,7 +700,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.s
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_rcc.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_rcc.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_rcc.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.i: cmake_force
@@ -700,7 +714,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.s: c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_rcc_ex.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_rcc_ex.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.i: cmake_force
@@ -714,7 +728,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.s
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_tim.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_tim.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_tim.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.i: cmake_force
@@ -728,7 +742,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.s: c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_tim_ex.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_tim_ex.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_tim_ex.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.i: cmake_force
@@ -742,7 +756,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.s
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_uart.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_uart.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_uart.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.i: cmake_force
@@ -756,7 +770,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.s: 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_uart_ex.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_uart_ex.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_uart_ex.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.i: cmake_force
@@ -770,7 +784,7 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: CMakeFiles/smo.elf.dir/flags.make
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj -MF CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_adc.c.obj.d -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_adc.c.obj -c D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_adc.c
 
 CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.i: cmake_force
@@ -781,9 +795,234 @@ CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.s: cm
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.s"
 	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_adc.c -o CMakeFiles\smo.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_adc.c.s
 
+CMakeFiles/smo.elf.dir/modbus/ascii/mbascii.c.obj: CMakeFiles/smo.elf.dir/flags.make
+CMakeFiles/smo.elf.dir/modbus/ascii/mbascii.c.obj: D:/BLDC/smo/modbus/ascii/mbascii.c
+CMakeFiles/smo.elf.dir/modbus/ascii/mbascii.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/smo.elf.dir/modbus/ascii/mbascii.c.obj"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/modbus/ascii/mbascii.c.obj -MF CMakeFiles\smo.elf.dir\modbus\ascii\mbascii.c.obj.d -o CMakeFiles\smo.elf.dir\modbus\ascii\mbascii.c.obj -c D:\BLDC\smo\modbus\ascii\mbascii.c
+
+CMakeFiles/smo.elf.dir/modbus/ascii/mbascii.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/smo.elf.dir/modbus/ascii/mbascii.c.i"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\BLDC\smo\modbus\ascii\mbascii.c > CMakeFiles\smo.elf.dir\modbus\ascii\mbascii.c.i
+
+CMakeFiles/smo.elf.dir/modbus/ascii/mbascii.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/smo.elf.dir/modbus/ascii/mbascii.c.s"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\BLDC\smo\modbus\ascii\mbascii.c -o CMakeFiles\smo.elf.dir\modbus\ascii\mbascii.c.s
+
+CMakeFiles/smo.elf.dir/modbus/functions/mbfunccoils.c.obj: CMakeFiles/smo.elf.dir/flags.make
+CMakeFiles/smo.elf.dir/modbus/functions/mbfunccoils.c.obj: D:/BLDC/smo/modbus/functions/mbfunccoils.c
+CMakeFiles/smo.elf.dir/modbus/functions/mbfunccoils.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/smo.elf.dir/modbus/functions/mbfunccoils.c.obj"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/modbus/functions/mbfunccoils.c.obj -MF CMakeFiles\smo.elf.dir\modbus\functions\mbfunccoils.c.obj.d -o CMakeFiles\smo.elf.dir\modbus\functions\mbfunccoils.c.obj -c D:\BLDC\smo\modbus\functions\mbfunccoils.c
+
+CMakeFiles/smo.elf.dir/modbus/functions/mbfunccoils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/smo.elf.dir/modbus/functions/mbfunccoils.c.i"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\BLDC\smo\modbus\functions\mbfunccoils.c > CMakeFiles\smo.elf.dir\modbus\functions\mbfunccoils.c.i
+
+CMakeFiles/smo.elf.dir/modbus/functions/mbfunccoils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/smo.elf.dir/modbus/functions/mbfunccoils.c.s"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\BLDC\smo\modbus\functions\mbfunccoils.c -o CMakeFiles\smo.elf.dir\modbus\functions\mbfunccoils.c.s
+
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdiag.c.obj: CMakeFiles/smo.elf.dir/flags.make
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdiag.c.obj: D:/BLDC/smo/modbus/functions/mbfuncdiag.c
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdiag.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdiag.c.obj"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdiag.c.obj -MF CMakeFiles\smo.elf.dir\modbus\functions\mbfuncdiag.c.obj.d -o CMakeFiles\smo.elf.dir\modbus\functions\mbfuncdiag.c.obj -c D:\BLDC\smo\modbus\functions\mbfuncdiag.c
+
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdiag.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdiag.c.i"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\BLDC\smo\modbus\functions\mbfuncdiag.c > CMakeFiles\smo.elf.dir\modbus\functions\mbfuncdiag.c.i
+
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdiag.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdiag.c.s"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\BLDC\smo\modbus\functions\mbfuncdiag.c -o CMakeFiles\smo.elf.dir\modbus\functions\mbfuncdiag.c.s
+
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdisc.c.obj: CMakeFiles/smo.elf.dir/flags.make
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdisc.c.obj: D:/BLDC/smo/modbus/functions/mbfuncdisc.c
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdisc.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdisc.c.obj"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdisc.c.obj -MF CMakeFiles\smo.elf.dir\modbus\functions\mbfuncdisc.c.obj.d -o CMakeFiles\smo.elf.dir\modbus\functions\mbfuncdisc.c.obj -c D:\BLDC\smo\modbus\functions\mbfuncdisc.c
+
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdisc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdisc.c.i"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\BLDC\smo\modbus\functions\mbfuncdisc.c > CMakeFiles\smo.elf.dir\modbus\functions\mbfuncdisc.c.i
+
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdisc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdisc.c.s"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\BLDC\smo\modbus\functions\mbfuncdisc.c -o CMakeFiles\smo.elf.dir\modbus\functions\mbfuncdisc.c.s
+
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncholding.c.obj: CMakeFiles/smo.elf.dir/flags.make
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncholding.c.obj: D:/BLDC/smo/modbus/functions/mbfuncholding.c
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncholding.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/smo.elf.dir/modbus/functions/mbfuncholding.c.obj"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/modbus/functions/mbfuncholding.c.obj -MF CMakeFiles\smo.elf.dir\modbus\functions\mbfuncholding.c.obj.d -o CMakeFiles\smo.elf.dir\modbus\functions\mbfuncholding.c.obj -c D:\BLDC\smo\modbus\functions\mbfuncholding.c
+
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncholding.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/smo.elf.dir/modbus/functions/mbfuncholding.c.i"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\BLDC\smo\modbus\functions\mbfuncholding.c > CMakeFiles\smo.elf.dir\modbus\functions\mbfuncholding.c.i
+
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncholding.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/smo.elf.dir/modbus/functions/mbfuncholding.c.s"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\BLDC\smo\modbus\functions\mbfuncholding.c -o CMakeFiles\smo.elf.dir\modbus\functions\mbfuncholding.c.s
+
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncinput.c.obj: CMakeFiles/smo.elf.dir/flags.make
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncinput.c.obj: D:/BLDC/smo/modbus/functions/mbfuncinput.c
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncinput.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/smo.elf.dir/modbus/functions/mbfuncinput.c.obj"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/modbus/functions/mbfuncinput.c.obj -MF CMakeFiles\smo.elf.dir\modbus\functions\mbfuncinput.c.obj.d -o CMakeFiles\smo.elf.dir\modbus\functions\mbfuncinput.c.obj -c D:\BLDC\smo\modbus\functions\mbfuncinput.c
+
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncinput.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/smo.elf.dir/modbus/functions/mbfuncinput.c.i"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\BLDC\smo\modbus\functions\mbfuncinput.c > CMakeFiles\smo.elf.dir\modbus\functions\mbfuncinput.c.i
+
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncinput.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/smo.elf.dir/modbus/functions/mbfuncinput.c.s"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\BLDC\smo\modbus\functions\mbfuncinput.c -o CMakeFiles\smo.elf.dir\modbus\functions\mbfuncinput.c.s
+
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncother.c.obj: CMakeFiles/smo.elf.dir/flags.make
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncother.c.obj: D:/BLDC/smo/modbus/functions/mbfuncother.c
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncother.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/smo.elf.dir/modbus/functions/mbfuncother.c.obj"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/modbus/functions/mbfuncother.c.obj -MF CMakeFiles\smo.elf.dir\modbus\functions\mbfuncother.c.obj.d -o CMakeFiles\smo.elf.dir\modbus\functions\mbfuncother.c.obj -c D:\BLDC\smo\modbus\functions\mbfuncother.c
+
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncother.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/smo.elf.dir/modbus/functions/mbfuncother.c.i"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\BLDC\smo\modbus\functions\mbfuncother.c > CMakeFiles\smo.elf.dir\modbus\functions\mbfuncother.c.i
+
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncother.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/smo.elf.dir/modbus/functions/mbfuncother.c.s"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\BLDC\smo\modbus\functions\mbfuncother.c -o CMakeFiles\smo.elf.dir\modbus\functions\mbfuncother.c.s
+
+CMakeFiles/smo.elf.dir/modbus/functions/mbutils.c.obj: CMakeFiles/smo.elf.dir/flags.make
+CMakeFiles/smo.elf.dir/modbus/functions/mbutils.c.obj: D:/BLDC/smo/modbus/functions/mbutils.c
+CMakeFiles/smo.elf.dir/modbus/functions/mbutils.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/smo.elf.dir/modbus/functions/mbutils.c.obj"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/modbus/functions/mbutils.c.obj -MF CMakeFiles\smo.elf.dir\modbus\functions\mbutils.c.obj.d -o CMakeFiles\smo.elf.dir\modbus\functions\mbutils.c.obj -c D:\BLDC\smo\modbus\functions\mbutils.c
+
+CMakeFiles/smo.elf.dir/modbus/functions/mbutils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/smo.elf.dir/modbus/functions/mbutils.c.i"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\BLDC\smo\modbus\functions\mbutils.c > CMakeFiles\smo.elf.dir\modbus\functions\mbutils.c.i
+
+CMakeFiles/smo.elf.dir/modbus/functions/mbutils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/smo.elf.dir/modbus/functions/mbutils.c.s"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\BLDC\smo\modbus\functions\mbutils.c -o CMakeFiles\smo.elf.dir\modbus\functions\mbutils.c.s
+
+CMakeFiles/smo.elf.dir/modbus/mb.c.obj: CMakeFiles/smo.elf.dir/flags.make
+CMakeFiles/smo.elf.dir/modbus/mb.c.obj: D:/BLDC/smo/modbus/mb.c
+CMakeFiles/smo.elf.dir/modbus/mb.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/smo.elf.dir/modbus/mb.c.obj"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/modbus/mb.c.obj -MF CMakeFiles\smo.elf.dir\modbus\mb.c.obj.d -o CMakeFiles\smo.elf.dir\modbus\mb.c.obj -c D:\BLDC\smo\modbus\mb.c
+
+CMakeFiles/smo.elf.dir/modbus/mb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/smo.elf.dir/modbus/mb.c.i"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\BLDC\smo\modbus\mb.c > CMakeFiles\smo.elf.dir\modbus\mb.c.i
+
+CMakeFiles/smo.elf.dir/modbus/mb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/smo.elf.dir/modbus/mb.c.s"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\BLDC\smo\modbus\mb.c -o CMakeFiles\smo.elf.dir\modbus\mb.c.s
+
+CMakeFiles/smo.elf.dir/modbus/port.c.obj: CMakeFiles/smo.elf.dir/flags.make
+CMakeFiles/smo.elf.dir/modbus/port.c.obj: D:/BLDC/smo/modbus/port.c
+CMakeFiles/smo.elf.dir/modbus/port.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/smo.elf.dir/modbus/port.c.obj"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/modbus/port.c.obj -MF CMakeFiles\smo.elf.dir\modbus\port.c.obj.d -o CMakeFiles\smo.elf.dir\modbus\port.c.obj -c D:\BLDC\smo\modbus\port.c
+
+CMakeFiles/smo.elf.dir/modbus/port.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/smo.elf.dir/modbus/port.c.i"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\BLDC\smo\modbus\port.c > CMakeFiles\smo.elf.dir\modbus\port.c.i
+
+CMakeFiles/smo.elf.dir/modbus/port.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/smo.elf.dir/modbus/port.c.s"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\BLDC\smo\modbus\port.c -o CMakeFiles\smo.elf.dir\modbus\port.c.s
+
+CMakeFiles/smo.elf.dir/modbus/portevent.c.obj: CMakeFiles/smo.elf.dir/flags.make
+CMakeFiles/smo.elf.dir/modbus/portevent.c.obj: D:/BLDC/smo/modbus/portevent.c
+CMakeFiles/smo.elf.dir/modbus/portevent.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/smo.elf.dir/modbus/portevent.c.obj"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/modbus/portevent.c.obj -MF CMakeFiles\smo.elf.dir\modbus\portevent.c.obj.d -o CMakeFiles\smo.elf.dir\modbus\portevent.c.obj -c D:\BLDC\smo\modbus\portevent.c
+
+CMakeFiles/smo.elf.dir/modbus/portevent.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/smo.elf.dir/modbus/portevent.c.i"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\BLDC\smo\modbus\portevent.c > CMakeFiles\smo.elf.dir\modbus\portevent.c.i
+
+CMakeFiles/smo.elf.dir/modbus/portevent.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/smo.elf.dir/modbus/portevent.c.s"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\BLDC\smo\modbus\portevent.c -o CMakeFiles\smo.elf.dir\modbus\portevent.c.s
+
+CMakeFiles/smo.elf.dir/modbus/portserial.c.obj: CMakeFiles/smo.elf.dir/flags.make
+CMakeFiles/smo.elf.dir/modbus/portserial.c.obj: D:/BLDC/smo/modbus/portserial.c
+CMakeFiles/smo.elf.dir/modbus/portserial.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/smo.elf.dir/modbus/portserial.c.obj"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/modbus/portserial.c.obj -MF CMakeFiles\smo.elf.dir\modbus\portserial.c.obj.d -o CMakeFiles\smo.elf.dir\modbus\portserial.c.obj -c D:\BLDC\smo\modbus\portserial.c
+
+CMakeFiles/smo.elf.dir/modbus/portserial.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/smo.elf.dir/modbus/portserial.c.i"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\BLDC\smo\modbus\portserial.c > CMakeFiles\smo.elf.dir\modbus\portserial.c.i
+
+CMakeFiles/smo.elf.dir/modbus/portserial.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/smo.elf.dir/modbus/portserial.c.s"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\BLDC\smo\modbus\portserial.c -o CMakeFiles\smo.elf.dir\modbus\portserial.c.s
+
+CMakeFiles/smo.elf.dir/modbus/porttimer.c.obj: CMakeFiles/smo.elf.dir/flags.make
+CMakeFiles/smo.elf.dir/modbus/porttimer.c.obj: D:/BLDC/smo/modbus/porttimer.c
+CMakeFiles/smo.elf.dir/modbus/porttimer.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/smo.elf.dir/modbus/porttimer.c.obj"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/modbus/porttimer.c.obj -MF CMakeFiles\smo.elf.dir\modbus\porttimer.c.obj.d -o CMakeFiles\smo.elf.dir\modbus\porttimer.c.obj -c D:\BLDC\smo\modbus\porttimer.c
+
+CMakeFiles/smo.elf.dir/modbus/porttimer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/smo.elf.dir/modbus/porttimer.c.i"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\BLDC\smo\modbus\porttimer.c > CMakeFiles\smo.elf.dir\modbus\porttimer.c.i
+
+CMakeFiles/smo.elf.dir/modbus/porttimer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/smo.elf.dir/modbus/porttimer.c.s"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\BLDC\smo\modbus\porttimer.c -o CMakeFiles\smo.elf.dir\modbus\porttimer.c.s
+
+CMakeFiles/smo.elf.dir/modbus/rtu/mbcrc.c.obj: CMakeFiles/smo.elf.dir/flags.make
+CMakeFiles/smo.elf.dir/modbus/rtu/mbcrc.c.obj: D:/BLDC/smo/modbus/rtu/mbcrc.c
+CMakeFiles/smo.elf.dir/modbus/rtu/mbcrc.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/smo.elf.dir/modbus/rtu/mbcrc.c.obj"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/modbus/rtu/mbcrc.c.obj -MF CMakeFiles\smo.elf.dir\modbus\rtu\mbcrc.c.obj.d -o CMakeFiles\smo.elf.dir\modbus\rtu\mbcrc.c.obj -c D:\BLDC\smo\modbus\rtu\mbcrc.c
+
+CMakeFiles/smo.elf.dir/modbus/rtu/mbcrc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/smo.elf.dir/modbus/rtu/mbcrc.c.i"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\BLDC\smo\modbus\rtu\mbcrc.c > CMakeFiles\smo.elf.dir\modbus\rtu\mbcrc.c.i
+
+CMakeFiles/smo.elf.dir/modbus/rtu/mbcrc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/smo.elf.dir/modbus/rtu/mbcrc.c.s"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\BLDC\smo\modbus\rtu\mbcrc.c -o CMakeFiles\smo.elf.dir\modbus\rtu\mbcrc.c.s
+
+CMakeFiles/smo.elf.dir/modbus/rtu/mbrtu.c.obj: CMakeFiles/smo.elf.dir/flags.make
+CMakeFiles/smo.elf.dir/modbus/rtu/mbrtu.c.obj: D:/BLDC/smo/modbus/rtu/mbrtu.c
+CMakeFiles/smo.elf.dir/modbus/rtu/mbrtu.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/smo.elf.dir/modbus/rtu/mbrtu.c.obj"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/modbus/rtu/mbrtu.c.obj -MF CMakeFiles\smo.elf.dir\modbus\rtu\mbrtu.c.obj.d -o CMakeFiles\smo.elf.dir\modbus\rtu\mbrtu.c.obj -c D:\BLDC\smo\modbus\rtu\mbrtu.c
+
+CMakeFiles/smo.elf.dir/modbus/rtu/mbrtu.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/smo.elf.dir/modbus/rtu/mbrtu.c.i"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\BLDC\smo\modbus\rtu\mbrtu.c > CMakeFiles\smo.elf.dir\modbus\rtu\mbrtu.c.i
+
+CMakeFiles/smo.elf.dir/modbus/rtu/mbrtu.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/smo.elf.dir/modbus/rtu/mbrtu.c.s"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\BLDC\smo\modbus\rtu\mbrtu.c -o CMakeFiles\smo.elf.dir\modbus\rtu\mbrtu.c.s
+
+CMakeFiles/smo.elf.dir/modbus/tcp/mbtcp.c.obj: CMakeFiles/smo.elf.dir/flags.make
+CMakeFiles/smo.elf.dir/modbus/tcp/mbtcp.c.obj: D:/BLDC/smo/modbus/tcp/mbtcp.c
+CMakeFiles/smo.elf.dir/modbus/tcp/mbtcp.c.obj: CMakeFiles/smo.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/smo.elf.dir/modbus/tcp/mbtcp.c.obj"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smo.elf.dir/modbus/tcp/mbtcp.c.obj -MF CMakeFiles\smo.elf.dir\modbus\tcp\mbtcp.c.obj.d -o CMakeFiles\smo.elf.dir\modbus\tcp\mbtcp.c.obj -c D:\BLDC\smo\modbus\tcp\mbtcp.c
+
+CMakeFiles/smo.elf.dir/modbus/tcp/mbtcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/smo.elf.dir/modbus/tcp/mbtcp.c.i"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\BLDC\smo\modbus\tcp\mbtcp.c > CMakeFiles\smo.elf.dir\modbus\tcp\mbtcp.c.i
+
+CMakeFiles/smo.elf.dir/modbus/tcp/mbtcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/smo.elf.dir/modbus/tcp/mbtcp.c.s"
+	D:\GUN-TOOLS\arm-embedded-tools\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\BLDC\smo\modbus\tcp\mbtcp.c -o CMakeFiles\smo.elf.dir\modbus\tcp\mbtcp.c.s
+
 # Object files for target smo.elf
 smo_elf_OBJECTS = \
 "CMakeFiles/smo.elf.dir/BSP/source/SMO.c.obj" \
+"CMakeFiles/smo.elf.dir/BSP/source/XMODEM.C.obj" \
 "CMakeFiles/smo.elf.dir/BSP/source/communication.c.obj" \
 "CMakeFiles/smo.elf.dir/BSP/source/currentPid.c.obj" \
 "CMakeFiles/smo.elf.dir/BSP/source/if.c.obj" \
@@ -833,12 +1072,29 @@ smo_elf_OBJECTS = \
 "CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj" \
 "CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj" \
 "CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj" \
-"CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj"
+"CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj" \
+"CMakeFiles/smo.elf.dir/modbus/ascii/mbascii.c.obj" \
+"CMakeFiles/smo.elf.dir/modbus/functions/mbfunccoils.c.obj" \
+"CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdiag.c.obj" \
+"CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdisc.c.obj" \
+"CMakeFiles/smo.elf.dir/modbus/functions/mbfuncholding.c.obj" \
+"CMakeFiles/smo.elf.dir/modbus/functions/mbfuncinput.c.obj" \
+"CMakeFiles/smo.elf.dir/modbus/functions/mbfuncother.c.obj" \
+"CMakeFiles/smo.elf.dir/modbus/functions/mbutils.c.obj" \
+"CMakeFiles/smo.elf.dir/modbus/mb.c.obj" \
+"CMakeFiles/smo.elf.dir/modbus/port.c.obj" \
+"CMakeFiles/smo.elf.dir/modbus/portevent.c.obj" \
+"CMakeFiles/smo.elf.dir/modbus/portserial.c.obj" \
+"CMakeFiles/smo.elf.dir/modbus/porttimer.c.obj" \
+"CMakeFiles/smo.elf.dir/modbus/rtu/mbcrc.c.obj" \
+"CMakeFiles/smo.elf.dir/modbus/rtu/mbrtu.c.obj" \
+"CMakeFiles/smo.elf.dir/modbus/tcp/mbtcp.c.obj"
 
 # External object files for target smo.elf
 smo_elf_EXTERNAL_OBJECTS =
 
 smo.elf: CMakeFiles/smo.elf.dir/BSP/source/SMO.c.obj
+smo.elf: CMakeFiles/smo.elf.dir/BSP/source/XMODEM.C.obj
 smo.elf: CMakeFiles/smo.elf.dir/BSP/source/communication.c.obj
 smo.elf: CMakeFiles/smo.elf.dir/BSP/source/currentPid.c.obj
 smo.elf: CMakeFiles/smo.elf.dir/BSP/source/if.c.obj
@@ -889,10 +1145,27 @@ smo.elf: CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_t
 smo.elf: CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj
 smo.elf: CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj
 smo.elf: CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj
+smo.elf: CMakeFiles/smo.elf.dir/modbus/ascii/mbascii.c.obj
+smo.elf: CMakeFiles/smo.elf.dir/modbus/functions/mbfunccoils.c.obj
+smo.elf: CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdiag.c.obj
+smo.elf: CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdisc.c.obj
+smo.elf: CMakeFiles/smo.elf.dir/modbus/functions/mbfuncholding.c.obj
+smo.elf: CMakeFiles/smo.elf.dir/modbus/functions/mbfuncinput.c.obj
+smo.elf: CMakeFiles/smo.elf.dir/modbus/functions/mbfuncother.c.obj
+smo.elf: CMakeFiles/smo.elf.dir/modbus/functions/mbutils.c.obj
+smo.elf: CMakeFiles/smo.elf.dir/modbus/mb.c.obj
+smo.elf: CMakeFiles/smo.elf.dir/modbus/port.c.obj
+smo.elf: CMakeFiles/smo.elf.dir/modbus/portevent.c.obj
+smo.elf: CMakeFiles/smo.elf.dir/modbus/portserial.c.obj
+smo.elf: CMakeFiles/smo.elf.dir/modbus/porttimer.c.obj
+smo.elf: CMakeFiles/smo.elf.dir/modbus/rtu/mbcrc.c.obj
+smo.elf: CMakeFiles/smo.elf.dir/modbus/rtu/mbrtu.c.obj
+smo.elf: CMakeFiles/smo.elf.dir/modbus/tcp/mbtcp.c.obj
 smo.elf: CMakeFiles/smo.elf.dir/build.make
 smo.elf: D:/BLDC/smo/Middlewares/ST/ARM/DSP/Lib/libarm_cortexM4lf_math.a
+smo.elf: CMakeFiles/smo.elf.dir/objects1.rsp
 smo.elf: CMakeFiles/smo.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Linking C executable smo.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\BLDC\smo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Linking CXX executable smo.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\smo.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/BLDC/smo/cmake-build-debug/smo.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/BLDC/smo/cmake-build-debug/smo.bin"

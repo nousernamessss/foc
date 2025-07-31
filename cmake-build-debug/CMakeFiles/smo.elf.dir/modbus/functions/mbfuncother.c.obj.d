@@ -1,0 +1,35 @@
+CMakeFiles/smo.elf.dir/modbus/functions/mbfuncother.c.obj: \
+ D:\BLDC\smo\modbus\functions\mbfuncother.c \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\stdlib.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\machine\ieeefp.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\_ansi.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\newlib.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\_newlib_version.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\config.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\features.h \
+ d:\gun-tools\arm-embedded-tools\lib\gcc\arm-none-eabi\9.2.1\include\stddef.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\reent.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\_ansi.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\_types.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\machine\_types.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\machine\_default_types.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\lock.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\cdefs.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\machine\stdlib.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\alloca.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\string.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\xlocale.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\strings.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\string.h \
+ D:\BLDC\smo\modbus/port.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\assert.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\inttypes.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\_intsup.h \
+ d:\gun-tools\arm-embedded-tools\lib\gcc\arm-none-eabi\9.2.1\include\stdint.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\stdint.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\_stdint.h \
+ D:\BLDC\smo\modbus\include/mb.h D:\BLDC\smo\modbus\include/mbport.h \
+ D:\BLDC\smo\modbus\include/mbproto.h \
+ D:\BLDC\smo\modbus\include/mbframe.h \
+ D:\BLDC\smo\modbus\include/mbproto.h \
+ D:\BLDC\smo\modbus\include/mbconfig.h

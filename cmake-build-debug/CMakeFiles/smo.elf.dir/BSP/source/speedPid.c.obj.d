@@ -71,4 +71,6 @@ CMakeFiles/smo.elf.dir/BSP/source/speedPid.c.obj: \
  d:\gun-tools\arm-embedded-tools\lib\gcc\arm-none-eabi\9.2.1\include-fixed\syslimits.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\limits.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\syslimits.h \
- D:\BLDC\smo\BSP\include/param.h
+ D:\BLDC\smo\BSP\include/param.h D:\BLDC\smo\modbus/port.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\assert.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\inttypes.h

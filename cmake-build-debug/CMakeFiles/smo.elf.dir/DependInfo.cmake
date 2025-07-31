@@ -31,6 +31,12 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "D:/BLDC/smo/Drivers/CMSIS/Include"
   "D:/BLDC/smo/BSP/include"
   "D:/BLDC/smo/Middlewares/ST/ARM/DSP/Inc"
+  "D:/BLDC/smo/modbus/ascii"
+  "D:/BLDC/smo/modbus/functions"
+  "D:/BLDC/smo/modbus/include"
+  "D:/BLDC/smo/modbus/rtu"
+  "D:/BLDC/smo/modbus/tcp"
+  "D:/BLDC/smo/modbus"
   )
 
 # The set of dependency files which are needed:
@@ -85,6 +91,23 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c" "CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj" "gcc" "CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj.d"
   "D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c" "CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj" "gcc" "CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj.d"
   "D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c" "CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj" "gcc" "CMakeFiles/smo.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj.d"
+  "D:/BLDC/smo/modbus/ascii/mbascii.c" "CMakeFiles/smo.elf.dir/modbus/ascii/mbascii.c.obj" "gcc" "CMakeFiles/smo.elf.dir/modbus/ascii/mbascii.c.obj.d"
+  "D:/BLDC/smo/modbus/functions/mbfunccoils.c" "CMakeFiles/smo.elf.dir/modbus/functions/mbfunccoils.c.obj" "gcc" "CMakeFiles/smo.elf.dir/modbus/functions/mbfunccoils.c.obj.d"
+  "D:/BLDC/smo/modbus/functions/mbfuncdiag.c" "CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdiag.c.obj" "gcc" "CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdiag.c.obj.d"
+  "D:/BLDC/smo/modbus/functions/mbfuncdisc.c" "CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdisc.c.obj" "gcc" "CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdisc.c.obj.d"
+  "D:/BLDC/smo/modbus/functions/mbfuncholding.c" "CMakeFiles/smo.elf.dir/modbus/functions/mbfuncholding.c.obj" "gcc" "CMakeFiles/smo.elf.dir/modbus/functions/mbfuncholding.c.obj.d"
+  "D:/BLDC/smo/modbus/functions/mbfuncinput.c" "CMakeFiles/smo.elf.dir/modbus/functions/mbfuncinput.c.obj" "gcc" "CMakeFiles/smo.elf.dir/modbus/functions/mbfuncinput.c.obj.d"
+  "D:/BLDC/smo/modbus/functions/mbfuncother.c" "CMakeFiles/smo.elf.dir/modbus/functions/mbfuncother.c.obj" "gcc" "CMakeFiles/smo.elf.dir/modbus/functions/mbfuncother.c.obj.d"
+  "D:/BLDC/smo/modbus/functions/mbutils.c" "CMakeFiles/smo.elf.dir/modbus/functions/mbutils.c.obj" "gcc" "CMakeFiles/smo.elf.dir/modbus/functions/mbutils.c.obj.d"
+  "D:/BLDC/smo/modbus/mb.c" "CMakeFiles/smo.elf.dir/modbus/mb.c.obj" "gcc" "CMakeFiles/smo.elf.dir/modbus/mb.c.obj.d"
+  "D:/BLDC/smo/modbus/port.c" "CMakeFiles/smo.elf.dir/modbus/port.c.obj" "gcc" "CMakeFiles/smo.elf.dir/modbus/port.c.obj.d"
+  "D:/BLDC/smo/modbus/portevent.c" "CMakeFiles/smo.elf.dir/modbus/portevent.c.obj" "gcc" "CMakeFiles/smo.elf.dir/modbus/portevent.c.obj.d"
+  "D:/BLDC/smo/modbus/portserial.c" "CMakeFiles/smo.elf.dir/modbus/portserial.c.obj" "gcc" "CMakeFiles/smo.elf.dir/modbus/portserial.c.obj.d"
+  "D:/BLDC/smo/modbus/porttimer.c" "CMakeFiles/smo.elf.dir/modbus/porttimer.c.obj" "gcc" "CMakeFiles/smo.elf.dir/modbus/porttimer.c.obj.d"
+  "D:/BLDC/smo/modbus/rtu/mbcrc.c" "CMakeFiles/smo.elf.dir/modbus/rtu/mbcrc.c.obj" "gcc" "CMakeFiles/smo.elf.dir/modbus/rtu/mbcrc.c.obj.d"
+  "D:/BLDC/smo/modbus/rtu/mbrtu.c" "CMakeFiles/smo.elf.dir/modbus/rtu/mbrtu.c.obj" "gcc" "CMakeFiles/smo.elf.dir/modbus/rtu/mbrtu.c.obj.d"
+  "D:/BLDC/smo/modbus/tcp/mbtcp.c" "CMakeFiles/smo.elf.dir/modbus/tcp/mbtcp.c.obj" "gcc" "CMakeFiles/smo.elf.dir/modbus/tcp/mbtcp.c.obj.d"
+  "D:/BLDC/smo/BSP/source/XMODEM.C" "CMakeFiles/smo.elf.dir/BSP/source/XMODEM.C.obj" "gcc" "CMakeFiles/smo.elf.dir/BSP/source/XMODEM.C.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

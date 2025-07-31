@@ -4,6 +4,7 @@
 #include "main.h"
 #include "svpwm.h"
 #include "param.h"
+#include "port.h"
 
 typedef struct
 {
@@ -19,7 +20,7 @@ typedef struct
 }tspeedParam;
 
 extern tspeedParam speedParam;
-
+extern uint16_t usRegHoldingBuf[REG_HOLDING_NREGS];
 void speedPidParamInit(tspeedParam *tspeedParam);
 void setSpeedRef(tspeedParam *idParam, float value);
 void setSpeedFdk(tspeedParam *idParam, float value);
