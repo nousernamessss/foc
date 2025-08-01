@@ -59,6 +59,13 @@ static void speedPidStep(tspeedParam *param)
     //     param->out = param->out;
 }
 
+void resetSpeedPidParam(tspeedParam *speedParam)
+{
+    speedParam->integral_state = 0.f;
+    speedParam->speedFdk = 0.f;
+    speedParam->speedRef = 0.f;
+}
+
 void speedPidCalculate(void)
 {
     speedPidStep(&speedParam);

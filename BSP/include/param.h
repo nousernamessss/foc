@@ -13,6 +13,7 @@ typedef struct
     float udc;
     float period;
     uint8_t runFlag;
+    uint8_t stopFlag;
 }tMotorParam;
 
 extern tMotorParam motorParam;

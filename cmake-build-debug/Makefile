@@ -224,6 +224,30 @@ BSP/source/currentPid.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/BSP/source/currentPid.c.s
 .PHONY : BSP/source/currentPid.c.s
 
+BSP/source/hfi.obj: BSP/source/hfi.c.obj
+.PHONY : BSP/source/hfi.obj
+
+# target to build an object file
+BSP/source/hfi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/BSP/source/hfi.c.obj
+.PHONY : BSP/source/hfi.c.obj
+
+BSP/source/hfi.i: BSP/source/hfi.c.i
+.PHONY : BSP/source/hfi.i
+
+# target to preprocess a source file
+BSP/source/hfi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/BSP/source/hfi.c.i
+.PHONY : BSP/source/hfi.c.i
+
+BSP/source/hfi.s: BSP/source/hfi.c.s
+.PHONY : BSP/source/hfi.s
+
+# target to generate assembly for a file
+BSP/source/hfi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/BSP/source/hfi.c.s
+.PHONY : BSP/source/hfi.c.s
+
 BSP/source/if.obj: BSP/source/if.c.obj
 .PHONY : BSP/source/if.obj
 
@@ -1765,6 +1789,9 @@ help:
 	@echo ... BSP/source/currentPid.obj
 	@echo ... BSP/source/currentPid.i
 	@echo ... BSP/source/currentPid.s
+	@echo ... BSP/source/hfi.obj
+	@echo ... BSP/source/hfi.i
+	@echo ... BSP/source/hfi.s
 	@echo ... BSP/source/if.obj
 	@echo ... BSP/source/if.i
 	@echo ... BSP/source/if.s

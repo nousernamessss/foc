@@ -69,6 +69,13 @@ static void currentPidStep(tcurrentParam *param)
         param->out = param->out;
 }
 
+void resetCurrentPidParam(tcurrentParam *param)
+{
+    param->integral_state = 0;
+    param->currentFdk = 0.f;
+    param->currentRef = 0.f;
+}
+
 void currentPidCalculate(void)
 {
     currentPidStep(&idParam);

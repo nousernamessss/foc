@@ -70,4 +70,7 @@ CMakeFiles/smo.elf.dir/BSP/source/currentPid.c.obj: \
  D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_tim_ex.h \
  D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_uart.h \
  D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_uart_ex.h \
+ D:\BLDC\smo\modbus/port.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\assert.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\inttypes.h \
  D:\BLDC\smo\BSP\include/param.h D:\BLDC\smo\BSP\include/svpwm.h

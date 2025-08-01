@@ -55,7 +55,7 @@ CMakeFiles/smo.elf.dir/modbus/portserial.c.obj: \
  D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_tim_ex.h \
  D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_uart.h \
  D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_uart_ex.h \
- D:\BLDC\smo\modbus\include/mb.h D:\BLDC\smo\modbus/port.h \
+ D:\BLDC\smo\modbus/port.h D:\BLDC\smo\modbus\include/mb.h \
  D:\BLDC\smo\modbus\include/mbport.h D:\BLDC\smo\modbus\include/mbproto.h \
  D:\BLDC\smo\modbus\include/mbport.h D:\BLDC\smo\Core\Inc/usart.h \
  D:\BLDC\smo\Core\Inc/main.h

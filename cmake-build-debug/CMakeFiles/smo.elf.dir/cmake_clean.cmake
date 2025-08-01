@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/smo.elf.dir/BSP/source/communication.c.obj.d"
   "CMakeFiles/smo.elf.dir/BSP/source/currentPid.c.obj"
   "CMakeFiles/smo.elf.dir/BSP/source/currentPid.c.obj.d"
+  "CMakeFiles/smo.elf.dir/BSP/source/hfi.c.obj"
+  "CMakeFiles/smo.elf.dir/BSP/source/hfi.c.obj.d"
   "CMakeFiles/smo.elf.dir/BSP/source/if.c.obj"
   "CMakeFiles/smo.elf.dir/BSP/source/if.c.obj.d"
   "CMakeFiles/smo.elf.dir/BSP/source/key.c.obj"

@@ -47,18 +47,21 @@ CMakeFiles/smo.elf.dir/BSP/source/XMODEM.C.obj: \
  D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_tim_ex.h \
  D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_uart.h \
  D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_uart_ex.h \
- d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\string.h \
+ D:\BLDC\smo\modbus/port.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\assert.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\_ansi.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\newlib.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\config.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\machine\ieeefp.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\inttypes.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\xlocale.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\string.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\reent.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\_ansi.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\_types.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\machine\_types.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\lock.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\cdefs.h \
- d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\xlocale.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\strings.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\string.h \
  D:\BLDC\smo\Core\Inc/usart.h D:\BLDC\smo\Core\Inc/main.h

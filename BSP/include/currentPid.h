@@ -26,5 +26,6 @@ void setIdRef(tcurrentParam *idParam, float value);
 void setIdFdk(tcurrentParam *idParam, float value);
 void setIqRef(tcurrentParam *iqParam, float value);
 void setIqFdk(tcurrentParam *iqParam, float value);
+void resetCurrentPidParam(tcurrentParam *param);
 void currentPidCalculate(void);
 #endif //CURRENTPID_H

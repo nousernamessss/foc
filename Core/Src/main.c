@@ -37,6 +37,7 @@
 #include "led.h"
 #include "mb.h"
 #include "SMO.h"
+#include "hfi.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -119,6 +120,7 @@ int main(void)
   eMBEnable();
   paramInit(&motorParam);
   Estimator_Init(&SMO_Controller, 8.f, 150.f, 200.f, 2500.f, motorParam.Rs, motorParam.Ls, motorParam.period, 10.f);
+  hfiInit(&hfiParam);
   svpwmParamInit();
   currentPidParamInit(&idParam, &iqParam);
   speedPidParamInit(&speedParam);
@@ -139,6 +141,34 @@ int main(void)
   while (1)
   {
     eMBPoll();
+    uint16_t coilValue = (ucRegCoilsBuf[0] << 8) | ucRegCoilsBuf[1];
+
+    if (coilValue == (1 << 8))
+    {
+      motorParam.runFlag = 1;  // 启动电机
+
+      HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
+      HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
+      HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_3);
+      HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_4);
+
+      HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_1);
+      HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_2);
+      HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_3);
+    }
+
+    // else if (coilValue == 0)
+    // {
+    //   motorParam.stopFlag = 1;  // 停止电机
+    //
+    //   HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_1);
+    //   HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_2);
+    //   HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_3);
+    //   HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_4);
+    //   HAL_TIMEx_PWMN_Stop(&htim1, TIM_CHANNEL_1);
+    //   HAL_TIMEx_PWMN_Stop(&htim1, TIM_CHANNEL_2);
+    //   HAL_TIMEx_PWMN_Stop(&htim1, TIM_CHANNEL_3);
+    // }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

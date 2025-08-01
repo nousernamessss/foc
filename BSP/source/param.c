@@ -11,4 +11,6 @@ void paramInit(tMotorParam *motor_param)
     motor_param->pair = 4.f;
     motor_param->lambda = 0.0059268f;
     motor_param->period = 0.0001f;
+    motor_param->runFlag = 0;
+    motor_param->stopFlag = 0;
 }

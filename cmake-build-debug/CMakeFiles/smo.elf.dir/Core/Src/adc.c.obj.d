@@ -47,21 +47,24 @@ CMakeFiles/smo.elf.dir/Core/Src/adc.c.obj: D:\BLDC\smo\Core\Src\adc.c \
  D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_tim_ex.h \
  D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_uart.h \
  D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_uart_ex.h \
- D:\BLDC\smo\Core\Inc/usart.h \
- D:\BLDC\smo\Middlewares\ST\ARM\DSP\Inc/arm_math.h \
- D:\BLDC\smo\Drivers\CMSIS\Include/cmsis_compiler.h \
- d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\string.h \
+ D:\BLDC\smo\modbus/port.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\assert.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\_ansi.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\newlib.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\config.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\machine\ieeefp.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\inttypes.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\xlocale.h \
+ D:\BLDC\smo\Core\Inc/usart.h \
+ D:\BLDC\smo\Middlewares\ST\ARM\DSP\Inc/arm_math.h \
+ D:\BLDC\smo\Drivers\CMSIS\Include/cmsis_compiler.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\string.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\reent.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\_ansi.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\_types.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\machine\_types.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\lock.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\cdefs.h \
- d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\xlocale.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\strings.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\string.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\math.h \
@@ -74,4 +77,5 @@ CMakeFiles/smo.elf.dir/Core/Src/adc.c.obj: D:\BLDC\smo\Core\Src\adc.c \
  D:\BLDC\smo\Core\Inc/usart.h D:\BLDC\smo\BSP\include/svpwm.h \
  D:\BLDC\smo\BSP\include/currentPid.h D:\BLDC\smo\BSP\include/param.h \
  D:\BLDC\smo\BSP\include/if.h D:\BLDC\smo\BSP\include/svpwm.h \
- D:\BLDC\smo\BSP\include/SMO.h D:\BLDC\smo\Core\Inc/tim.h
+ D:\BLDC\smo\BSP\include/hfi.h D:\BLDC\smo\BSP\include/SMO.h \
+ D:\BLDC\smo\Core\Inc/tim.h

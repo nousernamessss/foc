@@ -79,7 +79,9 @@ add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT}
         BSP/include/if.h
         BSP/source/speedPid.c
         BSP/include/speedPid.h
-        BSP/source/XMODEM.C)
+        BSP/source/XMODEM.C
+        BSP/source/hfi.c
+        BSP/include/hfi.h)
 
 target_link_libraries(${PROJECT_NAME}.elf ${CMAKE_SOURCE_DIR}/Middlewares/ST/ARM/DSP/Lib/libarm_cortexM4lf_math.a)
 set(HEX_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.hex)

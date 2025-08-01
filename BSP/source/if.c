@@ -54,6 +54,7 @@ void ifStep(void)
     {
         case MOTOR_STATE_PRE_POSITION:
         {
+#ifdef NOT_USE_HFI
             svpwmParam.theta = 0.f;
             svpwmParam.ud = -1.f;
             svpwmParam.uq = 0.f;
@@ -68,6 +69,69 @@ void ifStep(void)
                 state_counter = 0;
             }
             break;
+#else
+            state_counter++;
+            if (hfiParam.state == HFI_STATE_INITIAL_POS_ID)
+            {
+                setIdRef(&idParam, 0.f);
+                setIqRef(&iqParam, 0.f);
+
+                if (state_counter >= 300)
+                {
+                    state_counter = 0;
+                    hfiParam.state = HFI_STATE_POLARITY_ID;
+                }
+            }
+
+            else if (hfiParam.state == HFI_STATE_POLARITY_ID)
+            {
+                if (state_counter < 100)
+                {
+                    setIdRef(&idParam, 3.f);
+                }
+
+                else if (state_counter < 200)
+                {
+                    setIdRef(&idParam, -3.f);
+                }
+
+                else
+                {
+                    if (hfiParam.idFrequencySumPos > hfiParam.idFrequencySumNeg)
+                    {
+                        hfiParam.polarityCorrectionAngleRad = 0.0f; // 方向正确，无需补偿
+                    }
+                    else
+                    {
+                        hfiParam.polarityCorrectionAngleRad = PI; // 方向相反，补偿180度
+                    }
+
+                    float initial_angle_rad = hfiParam.estimatedAngleRad + hfiParam.polarityCorrectionAngleRad;
+
+                    // --- 辨识完成 ---
+                    motor_state = MOTOR_STATE_RAMP_UP; // 切换到下一个主状态
+                    state_counter = 0;
+
+                    // 【关键】用我们辨识出的角度来初始化爬坡状态的角度
+                    svpwmParam.theta = initial_angle_rad;
+                }
+            }
+
+            clarkConvert();
+            hfiSeparateCurrents(&hfiParam, svpwmParam.ialpha, svpwmParam.ibeta);
+            svpwmParam.theta = hfiParam.estimatedAngleRad + hfiParam.polarityCorrectionAngleRad;
+            svpwmParam.id = hfiParam.ialphaLowFrequency * arm_cos_f32(svpwmParam.theta) +
+                            hfiParam.ibetaLowFrequency * arm_sin_f32(svpwmParam.theta);
+            svpwmParam.iq = -hfiParam.ialphaLowFrequency * arm_sin_f32(svpwmParam.theta) +
+                            hfiParam.ibetaLowFrequency * arm_cos_f32(svpwmParam.theta);
+
+            currentPidCalculate();
+            antiParkConvert();
+
+            hfiStep(&hfiParam, &svpwmParam);
+            svpwmCalculate();
+            break;
+#endif
         }
 
         case MOTOR_STATE_RAMP_UP:

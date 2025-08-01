@@ -47,4 +47,12 @@ CMakeFiles/smo.elf.dir/Core/Src/stm32g4xx_it.c.obj: \
  D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_tim_ex.h \
  D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_uart.h \
  D:\BLDC\smo\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_uart_ex.h \
+ D:\BLDC\smo\modbus/port.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\assert.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\_ansi.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\newlib.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\config.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\machine\ieeefp.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\inttypes.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\xlocale.h \
  D:\BLDC\smo\Core\Inc/stm32g4xx_it.h

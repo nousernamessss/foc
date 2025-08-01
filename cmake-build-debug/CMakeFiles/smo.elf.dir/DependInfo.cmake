@@ -44,6 +44,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/BLDC/smo/BSP/source/SMO.c" "CMakeFiles/smo.elf.dir/BSP/source/SMO.c.obj" "gcc" "CMakeFiles/smo.elf.dir/BSP/source/SMO.c.obj.d"
   "D:/BLDC/smo/BSP/source/communication.c" "CMakeFiles/smo.elf.dir/BSP/source/communication.c.obj" "gcc" "CMakeFiles/smo.elf.dir/BSP/source/communication.c.obj.d"
   "D:/BLDC/smo/BSP/source/currentPid.c" "CMakeFiles/smo.elf.dir/BSP/source/currentPid.c.obj" "gcc" "CMakeFiles/smo.elf.dir/BSP/source/currentPid.c.obj.d"
+  "D:/BLDC/smo/BSP/source/hfi.c" "CMakeFiles/smo.elf.dir/BSP/source/hfi.c.obj" "gcc" "CMakeFiles/smo.elf.dir/BSP/source/hfi.c.obj.d"
   "D:/BLDC/smo/BSP/source/if.c" "CMakeFiles/smo.elf.dir/BSP/source/if.c.obj" "gcc" "CMakeFiles/smo.elf.dir/BSP/source/if.c.obj.d"
   "D:/BLDC/smo/BSP/source/key.c" "CMakeFiles/smo.elf.dir/BSP/source/key.c.obj" "gcc" "CMakeFiles/smo.elf.dir/BSP/source/key.c.obj.d"
   "D:/BLDC/smo/BSP/source/led.c" "CMakeFiles/smo.elf.dir/BSP/source/led.c.obj" "gcc" "CMakeFiles/smo.elf.dir/BSP/source/led.c.obj.d"

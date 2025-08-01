@@ -5,6 +5,10 @@
 #include "stdint.h"
 #include "param.h"
 #include "svpwm.h"
+#include "hfi.h"
+
+// #define NOT_USE_HFI
+#define USE_HFI
 
 typedef enum
 {

@@ -31,7 +31,7 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "port.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -72,7 +72,7 @@ void Error_Handler(void);
 #define Button2_EXTI_IRQn EXTI15_10_IRQn
 
 /* USER CODE BEGIN Private defines */
-
+extern uint8_t ucRegCoilsBuf[REG_COILS_SIZE / 8];
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
