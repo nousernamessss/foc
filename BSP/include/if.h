@@ -10,7 +10,7 @@
 
 // #define NOT_USE_HFI
 #define NOT_USE_SMC
-// #define USE_ENCORDER
+#define USE_ENCORDER
 // #define USE_MODBUS
 // #define PARAM_IDENTIFIER
 

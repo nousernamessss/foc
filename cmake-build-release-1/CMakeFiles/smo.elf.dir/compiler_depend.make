@@ -219,6 +219,7 @@ CMakeFiles/smo.elf.dir/BSP/source/currentPid.c.obj: D:/BLDC/smo/BSP/source/curre
   D:/BLDC/smo/BSP/include/if.h \
   D:/BLDC/smo/BSP/include/led.h \
   D:/BLDC/smo/BSP/include/param.h \
+  D:/BLDC/smo/BSP/include/qprControl.h \
   D:/BLDC/smo/BSP/include/rlsEstimator.h \
   D:/BLDC/smo/BSP/include/smc.h \
   D:/BLDC/smo/BSP/include/svpwm.h \
@@ -706,6 +707,41 @@ CMakeFiles/smo.elf.dir/BSP/source/param.c.obj: D:/BLDC/smo/BSP/source/param.c \
   D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/_intsup.h \
   D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/_stdint.h \
   D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/features.h \
+  D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h
+
+CMakeFiles/smo.elf.dir/BSP/source/qprControl.c.obj: D:/BLDC/smo/BSP/source/qprControl.c \
+  D:/BLDC/smo/BSP/include/param.h \
+  D:/BLDC/smo/BSP/include/qprControl.h \
+  D:/BLDC/smo/Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:/BLDC/smo/Drivers/CMSIS/Include/cmsis_gcc.h \
+  D:/BLDC/smo/Middlewares/ST/ARM/DSP/Inc/arm_math.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/_ansi.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/_newlib_version.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/limits.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/machine/_default_types.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/machine/_types.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/machine/fastmath.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/machine/ieeefp.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/math.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/newlib.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/stdint.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/string.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/strings.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/_intsup.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/_stdint.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/_types.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/cdefs.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/config.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/features.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/lock.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/reent.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/string.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/syslimits.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/xlocale.h \
+  D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include-fixed/limits.h \
+  D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include-fixed/syslimits.h \
+  D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include/float.h \
+  D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
   D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h
 
 CMakeFiles/smo.elf.dir/BSP/source/rlsEstimator.c.obj: D:/BLDC/smo/BSP/source/rlsEstimator.c \
@@ -1383,6 +1419,7 @@ CMakeFiles/smo.elf.dir/Core/Src/main.c.obj: D:/BLDC/smo/Core/Src/main.c \
   D:/BLDC/smo/BSP/include/if.h \
   D:/BLDC/smo/BSP/include/led.h \
   D:/BLDC/smo/BSP/include/param.h \
+  D:/BLDC/smo/BSP/include/qprControl.h \
   D:/BLDC/smo/BSP/include/rlsEstimator.h \
   D:/BLDC/smo/BSP/include/smc.h \
   D:/BLDC/smo/BSP/include/speedPid.h \
@@ -3933,6 +3970,8 @@ D:/BLDC/smo/BSP/include/led.h:
 
 D:/BLDC/smo/BSP/include/param.h:
 
+D:/BLDC/smo/BSP/include/qprControl.h:
+
 D:/BLDC/smo/BSP/include/rlsEstimator.h:
 
 D:/BLDC/smo/BSP/include/smc.h:
@@ -3962,6 +4001,10 @@ D:/BLDC/smo/BSP/source/key.c:
 D:/BLDC/smo/BSP/source/led.c:
 
 D:/BLDC/smo/BSP/source/param.c:
+
+D:/BLDC/smo/modbus/functions/mbfuncother.c:
+
+D:/BLDC/smo/BSP/source/qprControl.c:
 
 D:/BLDC/smo/Core/Src/adc.c:
 
@@ -4112,8 +4155,6 @@ D:/BLDC/smo/modbus/functions/mbfunccoils.c:
 D:/BLDC/smo/modbus/functions/mbfuncdiag.c:
 
 D:/BLDC/smo/modbus/functions/mbfuncinput.c:
-
-D:/BLDC/smo/modbus/functions/mbfuncother.c:
 
 D:/BLDC/smo/modbus/functions/mbutils.c:
 

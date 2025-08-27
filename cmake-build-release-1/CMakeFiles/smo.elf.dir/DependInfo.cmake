@@ -50,6 +50,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/BLDC/smo/BSP/source/key.c" "CMakeFiles/smo.elf.dir/BSP/source/key.c.obj" "gcc" "CMakeFiles/smo.elf.dir/BSP/source/key.c.obj.d"
   "D:/BLDC/smo/BSP/source/led.c" "CMakeFiles/smo.elf.dir/BSP/source/led.c.obj" "gcc" "CMakeFiles/smo.elf.dir/BSP/source/led.c.obj.d"
   "D:/BLDC/smo/BSP/source/param.c" "CMakeFiles/smo.elf.dir/BSP/source/param.c.obj" "gcc" "CMakeFiles/smo.elf.dir/BSP/source/param.c.obj.d"
+  "D:/BLDC/smo/BSP/source/qprControl.c" "CMakeFiles/smo.elf.dir/BSP/source/qprControl.c.obj" "gcc" "CMakeFiles/smo.elf.dir/BSP/source/qprControl.c.obj.d"
   "D:/BLDC/smo/BSP/source/rlsEstimator.c" "CMakeFiles/smo.elf.dir/BSP/source/rlsEstimator.c.obj" "gcc" "CMakeFiles/smo.elf.dir/BSP/source/rlsEstimator.c.obj.d"
   "D:/BLDC/smo/BSP/source/smc.c" "CMakeFiles/smo.elf.dir/BSP/source/smc.c.obj" "gcc" "CMakeFiles/smo.elf.dir/BSP/source/smc.c.obj.d"
   "D:/BLDC/smo/BSP/source/speedPid.c" "CMakeFiles/smo.elf.dir/BSP/source/speedPid.c.obj" "gcc" "CMakeFiles/smo.elf.dir/BSP/source/speedPid.c.obj.d"

@@ -90,4 +90,5 @@ CMakeFiles/smo.elf.dir/Core/Src/main.c.obj: D:\BLDC\smo\Core\Src\main.c \
  D:\BLDC\smo\Core\Inc/gpio.h D:\BLDC\smo\BSP\include/param.h \
  D:\BLDC\smo\BSP\include/speedPid.h D:\BLDC\smo\BSP\include/led.h \
  D:\BLDC\smo\modbus\include/mb.h D:\BLDC\smo\modbus\include/mbport.h \
- D:\BLDC\smo\modbus\include/mbproto.h D:\BLDC\smo\BSP\include/hfi.h
+ D:\BLDC\smo\modbus\include/mbproto.h D:\BLDC\smo\BSP\include/hfi.h \
+ D:\BLDC\smo\BSP\include/qprControl.h

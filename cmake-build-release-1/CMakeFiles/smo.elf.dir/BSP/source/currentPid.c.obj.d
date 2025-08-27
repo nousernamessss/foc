@@ -79,4 +79,4 @@ CMakeFiles/smo.elf.dir/BSP/source/currentPid.c.obj: \
  D:\BLDC\smo\BSP\include/svpwm.h D:\BLDC\smo\BSP\include/if.h \
  D:\BLDC\smo\BSP\include/smc.h D:\BLDC\smo\BSP\include/rlsEstimator.h \
  D:\BLDC\smo\BSP\include/SMO.h D:\BLDC\smo\BSP\include/svpwm.h \
- D:\BLDC\smo\BSP\include/if.h
+ D:\BLDC\smo\BSP\include/if.h D:\BLDC\smo\BSP\include/qprControl.h

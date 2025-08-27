@@ -40,6 +40,7 @@
 #include "SMO.h"
 #include "hfi.h"
 #include "rlsEstimator.h"
+#include "qprControl.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -133,6 +134,8 @@ int main(void)
   smcInit(&smcParam);
   Estimator_Init(&SMO_Controller, 8.f, 150.f, 200.f, 2500.f, motorParam.Rs, motorParam.Ls, motorParam.period, 10.f);
   hfiInit(&hfiParam);
+  qprInit(&qprControllerId, 100.f, 5.f, 0.f, motorParam.period);
+  qprInit(&qprControllerIq, 100.f, 5.f, 0.f, motorParam.period);
   svpwmParamInit();
   currentPidParamInit(&idParam, &iqParam);
   speedPidParamInit(&speedParam);

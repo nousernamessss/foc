@@ -368,6 +368,30 @@ BSP/source/param.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/BSP/source/param.c.s
 .PHONY : BSP/source/param.c.s
 
+BSP/source/qprControl.obj: BSP/source/qprControl.c.obj
+.PHONY : BSP/source/qprControl.obj
+
+# target to build an object file
+BSP/source/qprControl.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/BSP/source/qprControl.c.obj
+.PHONY : BSP/source/qprControl.c.obj
+
+BSP/source/qprControl.i: BSP/source/qprControl.c.i
+.PHONY : BSP/source/qprControl.i
+
+# target to preprocess a source file
+BSP/source/qprControl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/BSP/source/qprControl.c.i
+.PHONY : BSP/source/qprControl.c.i
+
+BSP/source/qprControl.s: BSP/source/qprControl.c.s
+.PHONY : BSP/source/qprControl.s
+
+# target to generate assembly for a file
+BSP/source/qprControl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/BSP/source/qprControl.c.s
+.PHONY : BSP/source/qprControl.c.s
+
 BSP/source/rlsEstimator.obj: BSP/source/rlsEstimator.c.obj
 .PHONY : BSP/source/rlsEstimator.obj
 
@@ -1879,6 +1903,9 @@ help:
 	@echo ... BSP/source/param.obj
 	@echo ... BSP/source/param.i
 	@echo ... BSP/source/param.s
+	@echo ... BSP/source/qprControl.obj
+	@echo ... BSP/source/qprControl.i
+	@echo ... BSP/source/qprControl.s
 	@echo ... BSP/source/rlsEstimator.obj
 	@echo ... BSP/source/rlsEstimator.i
 	@echo ... BSP/source/rlsEstimator.s

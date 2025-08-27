@@ -12,6 +12,8 @@ uint32_t key1Count = 0;
 uint32_t key2Count = 0;
 uint32_t key3Count = 0;
 
+uint8_t qprControlEnabled = 0;
+
 void encoderInit(tencoderParam *encoderParam)
 {
     encoderParam->encoderPulseCount = 0;
@@ -26,6 +28,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
     if(GPIO_Pin == Button1_Pin)
     {
+        key1Count++;
         motorParam.runFlag = 1;
         HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
         HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
@@ -39,6 +42,11 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
         HAL_TIM_Encoder_Start(&htim4, TIM_CHANNEL_ALL);
         HAL_TIM_Base_Start_IT(&htim6);
 
+        if (key1Count == 2)
+        {
+            qprControlEnabled = 1;
+            led1Ctrl(LED_OFF);
+        }
         // if (motorParam.runFlag == 1)
         // {
         //     HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_1);

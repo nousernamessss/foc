@@ -38,102 +38,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2570dfb7-f273-4d3f-8944-bcc75d8f158e" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/BSP/include/encoder.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BSP/include/rlsEstimator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BSP/include/smc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BSP/source/encoder.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BSP/source/rlsEstimator.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BSP/source/smc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BSP/include/qprControl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BSP/source/qprControl.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/include/communication.h" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/include/communication.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/include/currentPid.h" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/include/currentPid.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSP/include/encoder.h" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/include/encoder.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BSP/include/if.h" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/include/if.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/include/key.h" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/include/key.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/include/param.h" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/include/param.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/include/speedPid.h" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/include/speedPid.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/include/svpwm.h" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/include/svpwm.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/source/XMODEM.C" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/source/XMODEM.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/source/communication.c" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/source/communication.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BSP/source/currentPid.c" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/source/currentPid.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/source/hfi.c" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/source/hfi.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/source/if.c" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/source/if.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/source/key.c" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/source/key.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/source/led.c" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/source/led.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/source/param.c" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/source/param.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/source/speedPid.c" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/source/speedPid.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/source/svpwm.c" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/source/svpwm.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSP/source/encoder.c" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/source/encoder.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists_template.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/adc.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/adc.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32g4xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32g4xx_it.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/tim.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/tim.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/adc.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/adc.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/dac.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/dac.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/fdcan.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/fdcan.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/stm32g4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32g4xx_it.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/tim.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/tim.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/usart.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-b2fcbd0456eee8f21f82.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2025-08-01T08-07-41-0537.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-smo.elf-Debug-dc07dc208368abc763d0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/BSP/source/XMODEM.C.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/BSP/source/XMODEM.C.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/BSP/source/communication.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/BSP/source/communication.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/BSP/source/currentPid.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/BSP/source/currentPid.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/BSP/source/hfi.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/BSP/source/hfi.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/BSP/source/if.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/BSP/source/if.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/BSP/source/if.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/BSP/source/if.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/BSP/source/key.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/BSP/source/key.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/BSP/source/led.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/BSP/source/led.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/BSP/source/param.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/BSP/source/param.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/BSP/source/speedPid.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/BSP/source/speedPid.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/BSP/source/svpwm.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/BSP/source/svpwm.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/Core/Src/adc.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/Core/Src/adc.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/Core/Src/adc.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/Core/Src/adc.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/Core/Src/dac.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/Core/Src/dac.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/Core/Src/fdcan.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/Core/Src/fdcan.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/Core/Src/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/Core/Src/main.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/Core/Src/main.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/Core/Src/stm32g4xx_it.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/Core/Src/stm32g4xx_it.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/Core/Src/tim.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/Core/Src/tim.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/Core/Src/usart.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/Core/Src/usart.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/compiler_depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/ascii/mbascii.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/ascii/mbascii.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/functions/mbfunccoils.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/functions/mbfunccoils.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdisc.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/functions/mbfuncdisc.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/functions/mbfuncholding.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/functions/mbfuncholding.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/functions/mbfuncinput.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/functions/mbfuncinput.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/functions/mbfuncother.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/functions/mbfuncother.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/functions/mbutils.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/functions/mbutils.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/mb.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/mb.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/port.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/port.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/portevent.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/portevent.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/portserial.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/portserial.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/porttimer.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/porttimer.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/porttimer.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/porttimer.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/rtu/mbcrc.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/rtu/mbcrc.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/rtu/mbrtu.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/rtu/mbrtu.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/tcp/mbtcp.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/modbus/tcp/mbtcp.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/smo.elf.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/smo.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/smo.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/smo.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/smo.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/smo.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/smo.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/smo.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/smo.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modbus/port.h" beforeDir="false" afterPath="$PROJECT_DIR$/modbus/port.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modbus/portserial.c" beforeDir="false" afterPath="$PROJECT_DIR$/modbus/portserial.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modbus/porttimer.c" beforeDir="false" afterPath="$PROJECT_DIR$/modbus/porttimer.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smo.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/smo.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-1/.cmake/api/v1/reply/codemodel-v2-e1300ff654e26703db71.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-1/.cmake/api/v1/reply/index-2025-08-18T21-23-04-0679.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-1/.cmake/api/v1/reply/target-smo.elf-Release-e57dc62dc6769ad08bb5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/BSP/source/currentPid.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/BSP/source/currentPid.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/BSP/source/encoder.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/BSP/source/encoder.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/BSP/source/speedPid.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/BSP/source/speedPid.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/Core/Src/adc.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/Core/Src/adc.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/Core/Src/main.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/Core/Src/main.c.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/compiler_depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/modbus/porttimer.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/modbus/porttimer.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-1/CMakeFiles/smo.elf.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-1/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-1/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-1/smo.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-1/smo.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-1/smo.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-1/smo.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-1/smo.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-1/smo.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-1/smo.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-1/smo.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,28 +137,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "OpenOCD 下载并运行.smo.elf.executor": "Run",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.west.config.association.type.startup.service": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/BLDC/smo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CMakeSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;OpenOCD 下载并运行.smo.elf.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/BLDC/smo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\BLDC\smo\BSP\source" />
@@ -329,6 +267,9 @@
       <workItem from="1756041012010" duration="4128000" />
       <workItem from="1756090632998" duration="597000" />
       <workItem from="1756181544939" duration="744000" />
+      <workItem from="1756284252615" duration="596000" />
+      <workItem from="1756300100482" duration="3813000" />
+      <workItem from="1756304158575" duration="1628000" />
     </task>
     <servers />
   </component>
@@ -386,6 +327,11 @@
           <url>file://$PROJECT_DIR$/Core/Src/adc.c</url>
           <line>417</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/BSP/include/encoder.h</url>
+          <line>13</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

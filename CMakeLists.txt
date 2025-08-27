@@ -85,7 +85,9 @@ add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT}
         BSP/include/smc.h
         BSP/source/smc.c
         BSP/source/rlsEstimator.c
-        BSP/include/rlsEstimator.h)
+        BSP/include/rlsEstimator.h
+        BSP/source/qprControl.c
+        BSP/include/qprControl.h)
 
 target_link_libraries(${PROJECT_NAME}.elf ${CMAKE_SOURCE_DIR}/Middlewares/ST/ARM/DSP/Lib/libarm_cortexM4lf_math.a)
 set(HEX_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.hex)

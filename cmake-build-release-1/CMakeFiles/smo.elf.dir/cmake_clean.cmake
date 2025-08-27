@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/smo.elf.dir/BSP/source/led.c.obj.d"
   "CMakeFiles/smo.elf.dir/BSP/source/param.c.obj"
   "CMakeFiles/smo.elf.dir/BSP/source/param.c.obj.d"
+  "CMakeFiles/smo.elf.dir/BSP/source/qprControl.c.obj"
+  "CMakeFiles/smo.elf.dir/BSP/source/qprControl.c.obj.d"
   "CMakeFiles/smo.elf.dir/BSP/source/rlsEstimator.c.obj"
   "CMakeFiles/smo.elf.dir/BSP/source/rlsEstimator.c.obj.d"
   "CMakeFiles/smo.elf.dir/BSP/source/smc.c.obj"

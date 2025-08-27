@@ -11,6 +11,7 @@
 
 extern uint32_t key2Count;
 extern uint32_t key3Count;
+extern uint8_t qprControlEnabled;
 
 typedef struct
 {

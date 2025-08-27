@@ -2,6 +2,7 @@
 
 #include "svpwm.h"
 #include "if.h"
+#include "qprControl.h"
 
 tcurrentParam idParam;
 tcurrentParam iqParam;
@@ -93,6 +94,12 @@ void currentPidCalculate(void)
     svpwmParam.ud = idParam.out - SMO_Controller.omega_filtered * motorParam.Ls * svpwmParam.iq;
     svpwmParam.uq = iqParam.out + SMO_Controller.omega_filtered * (motorParam.Ls * svpwmParam.id + motorParam.lambda);
 #endif
+
+    if (qprControlEnabled == 1)
+    {
+        svpwmParam.ud += qprUpdate(&qprControllerId, idParam.currentRef - idParam.currentFdk, encoderParam.motorSpeedRpm * motorParam.pair * PI / 30.f * 6.F);
+        svpwmParam.uq += qprUpdate(&qprControllerIq, iqParam.currentRef - iqParam.currentFdk, encoderParam.motorSpeedRpm * motorParam.pair * PI / 30.f * 6.F);
+    }
 
     if (svpwmParam.ud > idParam.outMax)
         svpwmParam.ud = idParam.outMax;
