@@ -287,6 +287,94 @@ CMakeFiles/smo.elf.dir/BSP/source/currentPid.c.obj: D:/BLDC/smo/BSP/source/curre
   D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
   D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h
 
+CMakeFiles/smo.elf.dir/BSP/source/encoder.c.obj: D:/BLDC/smo/BSP/source/encoder.c \
+  D:/BLDC/smo/BSP/include/SMO.h \
+  D:/BLDC/smo/BSP/include/communication.h \
+  D:/BLDC/smo/BSP/include/currentPid.h \
+  D:/BLDC/smo/BSP/include/encoder.h \
+  D:/BLDC/smo/BSP/include/hfi.h \
+  D:/BLDC/smo/BSP/include/if.h \
+  D:/BLDC/smo/BSP/include/led.h \
+  D:/BLDC/smo/BSP/include/param.h \
+  D:/BLDC/smo/BSP/include/rlsEstimator.h \
+  D:/BLDC/smo/BSP/include/smc.h \
+  D:/BLDC/smo/BSP/include/speedPid.h \
+  D:/BLDC/smo/BSP/include/svpwm.h \
+  D:/BLDC/smo/Core/Inc/adc.h \
+  D:/BLDC/smo/Core/Inc/main.h \
+  D:/BLDC/smo/Core/Inc/stm32g4xx_hal_conf.h \
+  D:/BLDC/smo/Core/Inc/tim.h \
+  D:/BLDC/smo/Core/Inc/usart.h \
+  D:/BLDC/smo/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h \
+  D:/BLDC/smo/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h \
+  D:/BLDC/smo/Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h \
+  D:/BLDC/smo/Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:/BLDC/smo/Drivers/CMSIS/Include/cmsis_gcc.h \
+  D:/BLDC/smo/Drivers/CMSIS/Include/cmsis_version.h \
+  D:/BLDC/smo/Drivers/CMSIS/Include/core_cm4.h \
+  D:/BLDC/smo/Drivers/CMSIS/Include/mpu_armv7.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_comp.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dac.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dac_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_fdcan.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_exti.h \
+  D:/BLDC/smo/Middlewares/ST/ARM/DSP/Inc/arm_math.h \
+  D:/BLDC/smo/modbus/port.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/_ansi.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/_newlib_version.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/assert.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/inttypes.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/limits.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/machine/_default_types.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/machine/_types.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/machine/ieeefp.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/math.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/newlib.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/stdint.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/string.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/strings.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/_intsup.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/_stdint.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/_types.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/cdefs.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/config.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/features.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/lock.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/reent.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/string.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/syslimits.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/xlocale.h \
+  D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include-fixed/limits.h \
+  D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include-fixed/syslimits.h \
+  D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include/float.h \
+  D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
+  D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h
+
 CMakeFiles/smo.elf.dir/BSP/source/hfi.c.obj: D:/BLDC/smo/BSP/source/hfi.c \
   D:/BLDC/smo/BSP/include/hfi.h \
   D:/BLDC/smo/BSP/include/param.h \
@@ -373,6 +461,7 @@ CMakeFiles/smo.elf.dir/BSP/source/if.c.obj: D:/BLDC/smo/BSP/source/if.c \
   D:/BLDC/smo/BSP/include/key.h \
   D:/BLDC/smo/BSP/include/led.h \
   D:/BLDC/smo/BSP/include/param.h \
+  D:/BLDC/smo/BSP/include/smc.h \
   D:/BLDC/smo/BSP/include/speedPid.h \
   D:/BLDC/smo/BSP/include/svpwm.h \
   D:/BLDC/smo/Core/Inc/main.h \
@@ -600,6 +689,157 @@ CMakeFiles/smo.elf.dir/BSP/source/param.c.obj: D:/BLDC/smo/BSP/source/param.c \
   D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/features.h \
   D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h
 
+CMakeFiles/smo.elf.dir/BSP/source/rlsEstimator.c.obj: D:/BLDC/smo/BSP/source/rlsEstimator.c \
+  D:/BLDC/smo/BSP/include/rlsEstimator.h \
+  D:/BLDC/smo/Core/Inc/main.h \
+  D:/BLDC/smo/Core/Inc/stm32g4xx_hal_conf.h \
+  D:/BLDC/smo/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h \
+  D:/BLDC/smo/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h \
+  D:/BLDC/smo/Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h \
+  D:/BLDC/smo/Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:/BLDC/smo/Drivers/CMSIS/Include/cmsis_gcc.h \
+  D:/BLDC/smo/Drivers/CMSIS/Include/cmsis_version.h \
+  D:/BLDC/smo/Drivers/CMSIS/Include/core_cm4.h \
+  D:/BLDC/smo/Drivers/CMSIS/Include/mpu_armv7.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_comp.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dac.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dac_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_fdcan.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_exti.h \
+  D:/BLDC/smo/Middlewares/ST/ARM/DSP/Inc/arm_math.h \
+  D:/BLDC/smo/modbus/port.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/_ansi.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/_newlib_version.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/assert.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/inttypes.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/limits.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/machine/_default_types.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/machine/_types.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/machine/ieeefp.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/math.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/newlib.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/stdint.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/string.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/strings.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/_intsup.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/_stdint.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/_types.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/cdefs.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/config.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/features.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/lock.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/reent.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/string.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/syslimits.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/xlocale.h \
+  D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include-fixed/limits.h \
+  D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include-fixed/syslimits.h \
+  D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include/float.h \
+  D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
+  D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h
+
+CMakeFiles/smo.elf.dir/BSP/source/smc.c.obj: D:/BLDC/smo/BSP/source/smc.c \
+  D:/BLDC/smo/BSP/include/param.h \
+  D:/BLDC/smo/BSP/include/smc.h \
+  D:/BLDC/smo/BSP/include/speedPid.h \
+  D:/BLDC/smo/BSP/include/svpwm.h \
+  D:/BLDC/smo/Core/Inc/main.h \
+  D:/BLDC/smo/Core/Inc/stm32g4xx_hal_conf.h \
+  D:/BLDC/smo/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h \
+  D:/BLDC/smo/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h \
+  D:/BLDC/smo/Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h \
+  D:/BLDC/smo/Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:/BLDC/smo/Drivers/CMSIS/Include/cmsis_gcc.h \
+  D:/BLDC/smo/Drivers/CMSIS/Include/cmsis_version.h \
+  D:/BLDC/smo/Drivers/CMSIS/Include/core_cm4.h \
+  D:/BLDC/smo/Drivers/CMSIS/Include/mpu_armv7.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_comp.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dac.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dac_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_fdcan.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h \
+  D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_exti.h \
+  D:/BLDC/smo/Middlewares/ST/ARM/DSP/Inc/arm_math.h \
+  D:/BLDC/smo/modbus/port.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/_ansi.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/_newlib_version.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/assert.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/inttypes.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/limits.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/machine/_default_types.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/machine/_types.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/machine/ieeefp.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/math.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/newlib.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/stdint.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/string.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/strings.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/_intsup.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/_stdint.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/_types.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/cdefs.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/config.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/features.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/lock.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/reent.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/string.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/syslimits.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/xlocale.h \
+  D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include-fixed/limits.h \
+  D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include-fixed/syslimits.h \
+  D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include/float.h \
+  D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
+  D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h
+
 CMakeFiles/smo.elf.dir/BSP/source/speedPid.c.obj: D:/BLDC/smo/BSP/source/speedPid.c \
   D:/BLDC/smo/BSP/include/param.h \
   D:/BLDC/smo/BSP/include/speedPid.h \
@@ -714,9 +954,14 @@ CMakeFiles/smo.elf.dir/Core/Src/adc.c.obj: D:/BLDC/smo/Core/Src/adc.c \
   D:/BLDC/smo/BSP/include/SMO.h \
   D:/BLDC/smo/BSP/include/communication.h \
   D:/BLDC/smo/BSP/include/currentPid.h \
+  D:/BLDC/smo/BSP/include/encoder.h \
   D:/BLDC/smo/BSP/include/hfi.h \
   D:/BLDC/smo/BSP/include/if.h \
+  D:/BLDC/smo/BSP/include/led.h \
   D:/BLDC/smo/BSP/include/param.h \
+  D:/BLDC/smo/BSP/include/rlsEstimator.h \
+  D:/BLDC/smo/BSP/include/smc.h \
+  D:/BLDC/smo/BSP/include/speedPid.h \
   D:/BLDC/smo/BSP/include/svpwm.h \
   D:/BLDC/smo/Core/Inc/adc.h \
   D:/BLDC/smo/Core/Inc/main.h \
@@ -1092,10 +1337,13 @@ CMakeFiles/smo.elf.dir/Core/Src/main.c.obj: D:/BLDC/smo/Core/Src/main.c \
   D:/BLDC/smo/BSP/include/SMO.h \
   D:/BLDC/smo/BSP/include/communication.h \
   D:/BLDC/smo/BSP/include/currentPid.h \
+  D:/BLDC/smo/BSP/include/encoder.h \
   D:/BLDC/smo/BSP/include/hfi.h \
   D:/BLDC/smo/BSP/include/if.h \
   D:/BLDC/smo/BSP/include/led.h \
   D:/BLDC/smo/BSP/include/param.h \
+  D:/BLDC/smo/BSP/include/rlsEstimator.h \
+  D:/BLDC/smo/BSP/include/smc.h \
   D:/BLDC/smo/BSP/include/speedPid.h \
   D:/BLDC/smo/BSP/include/svpwm.h \
   D:/BLDC/smo/Core/Inc/adc.h \
@@ -3241,6 +3489,13 @@ CMakeFiles/smo.elf.dir/modbus/portserial.c.obj: D:/BLDC/smo/modbus/portserial.c 
   D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h
 
 CMakeFiles/smo.elf.dir/modbus/porttimer.c.obj: D:/BLDC/smo/modbus/porttimer.c \
+  D:/BLDC/smo/BSP/include/encoder.h \
+  D:/BLDC/smo/BSP/include/hfi.h \
+  D:/BLDC/smo/BSP/include/if.h \
+  D:/BLDC/smo/BSP/include/led.h \
+  D:/BLDC/smo/BSP/include/param.h \
+  D:/BLDC/smo/BSP/include/smc.h \
+  D:/BLDC/smo/BSP/include/svpwm.h \
   D:/BLDC/smo/Core/Inc/main.h \
   D:/BLDC/smo/Core/Inc/stm32g4xx_hal_conf.h \
   D:/BLDC/smo/Core/Inc/tim.h \
@@ -3282,6 +3537,7 @@ CMakeFiles/smo.elf.dir/modbus/porttimer.c.obj: D:/BLDC/smo/modbus/porttimer.c \
   D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h \
   D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h \
   D:/BLDC/smo/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_exti.h \
+  D:/BLDC/smo/Middlewares/ST/ARM/DSP/Inc/arm_math.h \
   D:/BLDC/smo/modbus/port.h \
   D:/BLDC/smo/modbus/include/mb.h \
   D:/BLDC/smo/modbus/include/mbport.h \
@@ -3291,15 +3547,29 @@ CMakeFiles/smo.elf.dir/modbus/porttimer.c.obj: D:/BLDC/smo/modbus/porttimer.c \
   D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/_newlib_version.h \
   D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/assert.h \
   D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/inttypes.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/limits.h \
   D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/machine/_default_types.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/machine/_types.h \
   D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/machine/ieeefp.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/math.h \
   D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/newlib.h \
   D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/stdint.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/string.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/strings.h \
   D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/_intsup.h \
   D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/_stdint.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/_types.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/cdefs.h \
   D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/config.h \
   D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/features.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/lock.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/reent.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/string.h \
+  D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/sys/syslimits.h \
   D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/xlocale.h \
+  D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include-fixed/limits.h \
+  D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include-fixed/syslimits.h \
+  D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include/float.h \
   D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
   D:/GUN-TOOLS/arm-embedded-tools/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h
 
@@ -3590,19 +3860,29 @@ D:/BLDC/smo/BSP/include/currentPid.h:
 
 D:/BLDC/smo/BSP/include/param.h:
 
-D:/BLDC/smo/BSP/source/hfi.c:
+D:/BLDC/smo/BSP/source/encoder.c:
+
+D:/BLDC/smo/BSP/include/encoder.h:
 
 D:/BLDC/smo/BSP/include/hfi.h:
 
-D:/BLDC/smo/BSP/source/if.c:
-
 D:/BLDC/smo/BSP/include/if.h:
+
+D:/BLDC/smo/BSP/include/rlsEstimator.h:
+
+D:/BLDC/smo/BSP/include/smc.h:
 
 D:/BLDC/smo/modbus/include/mbconfig.h:
 
 D:/BLDC/smo/modbus/ascii/mbascii.h:
 
 D:/BLDC/smo/BSP/include/speedPid.h:
+
+D:/BLDC/smo/Core/Inc/adc.h:
+
+D:/BLDC/smo/BSP/source/hfi.c:
+
+D:/BLDC/smo/BSP/source/if.c:
 
 D:/GUN-TOOLS/arm-embedded-tools/arm-none-eabi/include/alloca.h:
 
@@ -3616,11 +3896,13 @@ D:/BLDC/smo/BSP/source/led.c:
 
 D:/BLDC/smo/BSP/source/param.c:
 
-D:/BLDC/smo/BSP/source/svpwm.c:
-
 D:/BLDC/smo/Core/Src/adc.c:
 
-D:/BLDC/smo/Core/Inc/adc.h:
+D:/BLDC/smo/BSP/source/rlsEstimator.c:
+
+D:/BLDC/smo/BSP/source/smc.c:
+
+D:/BLDC/smo/BSP/source/svpwm.c:
 
 D:/BLDC/smo/Core/Src/comp.c:
 

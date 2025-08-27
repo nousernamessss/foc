@@ -1,0 +1,17 @@
+CMakeFiles/smo.elf.dir/modbus/rtu/mbcrc.c.obj: \
+ D:\BLDC\smo\modbus\rtu\mbcrc.c D:\BLDC\smo\modbus/port.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\assert.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\_ansi.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\newlib.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\_newlib_version.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\config.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\machine\ieeefp.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\features.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\inttypes.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\_intsup.h \
+ d:\gun-tools\arm-embedded-tools\lib\gcc\arm-none-eabi\9.2.1\include\stdint.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\stdint.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\machine\_default_types.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\_stdint.h \
+ d:\gun-tools\arm-embedded-tools\lib\gcc\arm-none-eabi\9.2.1\include\stddef.h \
+ d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\xlocale.h

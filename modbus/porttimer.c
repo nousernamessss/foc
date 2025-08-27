@@ -23,11 +23,12 @@
 #include "port.h"
 
 /* ----------------------- Modbus includes ----------------------------------*/
+#include "led.h"
 #include "mb.h"
 #include "mbport.h"
 #include "main.h"
 #include "tim.h"
-
+#include "encoder.h"
 /* ----------------------- static functions ---------------------------------*/
 static void prvvTIMERExpiredISR( void );
 
@@ -90,11 +91,31 @@ static void prvvTIMERExpiredISR( void )
     ( void )pxMBPortCBTimerExpired(  );
 }
 
+
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
     if (htim->Instance == TIM3) // 确保是你的 Modbus 定时器
     {
         __HAL_TIM_CLEAR_FLAG(&htim3, TIM_FLAG_UPDATE);
         prvvTIMERExpiredISR();
+    }
+
+    if (htim->Instance == TIM6)
+    {
+        //step1. 更新编码器读数
+        static uint16_t lastEncoderRawCount = 0;
+        uint16_t currentEncoderRawCount = __HAL_TIM_GET_COUNTER(&htim4);
+        int16_t diff = (int16_t)currentEncoderRawCount - (int16_t)lastEncoderRawCount;
+        encoderParam.encoderPulseCount += diff;
+        lastEncoderRawCount = currentEncoderRawCount;
+
+        //step2. 计算转速
+        static int32_t lastTotalPulseCount = 0;
+        int32_t pulseDelta = encoderParam.encoderPulseCount - lastTotalPulseCount;
+        lastTotalPulseCount = encoderParam.encoderPulseCount;
+
+        float rawSpeedRpm = ((float)pulseDelta / 4000.f) * 60.0f / (motorParam.period * 10.f);
+        encoderParam.motorSpeedRpm = encoderParam.filterParam * rawSpeedRpm
+                                   + (1.0f - encoderParam.filterParam) * encoderParam.motorSpeedRpm;
     }
 }

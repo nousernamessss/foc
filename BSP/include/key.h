@@ -6,5 +6,4 @@
 #include "led.h"
 #include "param.h"
 
-extern int i;
 #endif //KEY_H

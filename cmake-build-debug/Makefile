@@ -224,6 +224,30 @@ BSP/source/currentPid.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/BSP/source/currentPid.c.s
 .PHONY : BSP/source/currentPid.c.s
 
+BSP/source/encoder.obj: BSP/source/encoder.c.obj
+.PHONY : BSP/source/encoder.obj
+
+# target to build an object file
+BSP/source/encoder.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/BSP/source/encoder.c.obj
+.PHONY : BSP/source/encoder.c.obj
+
+BSP/source/encoder.i: BSP/source/encoder.c.i
+.PHONY : BSP/source/encoder.i
+
+# target to preprocess a source file
+BSP/source/encoder.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/BSP/source/encoder.c.i
+.PHONY : BSP/source/encoder.c.i
+
+BSP/source/encoder.s: BSP/source/encoder.c.s
+.PHONY : BSP/source/encoder.s
+
+# target to generate assembly for a file
+BSP/source/encoder.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/BSP/source/encoder.c.s
+.PHONY : BSP/source/encoder.c.s
+
 BSP/source/hfi.obj: BSP/source/hfi.c.obj
 .PHONY : BSP/source/hfi.obj
 
@@ -343,6 +367,54 @@ BSP/source/param.s: BSP/source/param.c.s
 BSP/source/param.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/BSP/source/param.c.s
 .PHONY : BSP/source/param.c.s
+
+BSP/source/rlsEstimator.obj: BSP/source/rlsEstimator.c.obj
+.PHONY : BSP/source/rlsEstimator.obj
+
+# target to build an object file
+BSP/source/rlsEstimator.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/BSP/source/rlsEstimator.c.obj
+.PHONY : BSP/source/rlsEstimator.c.obj
+
+BSP/source/rlsEstimator.i: BSP/source/rlsEstimator.c.i
+.PHONY : BSP/source/rlsEstimator.i
+
+# target to preprocess a source file
+BSP/source/rlsEstimator.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/BSP/source/rlsEstimator.c.i
+.PHONY : BSP/source/rlsEstimator.c.i
+
+BSP/source/rlsEstimator.s: BSP/source/rlsEstimator.c.s
+.PHONY : BSP/source/rlsEstimator.s
+
+# target to generate assembly for a file
+BSP/source/rlsEstimator.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/BSP/source/rlsEstimator.c.s
+.PHONY : BSP/source/rlsEstimator.c.s
+
+BSP/source/smc.obj: BSP/source/smc.c.obj
+.PHONY : BSP/source/smc.obj
+
+# target to build an object file
+BSP/source/smc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/BSP/source/smc.c.obj
+.PHONY : BSP/source/smc.c.obj
+
+BSP/source/smc.i: BSP/source/smc.c.i
+.PHONY : BSP/source/smc.i
+
+# target to preprocess a source file
+BSP/source/smc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/BSP/source/smc.c.i
+.PHONY : BSP/source/smc.c.i
+
+BSP/source/smc.s: BSP/source/smc.c.s
+.PHONY : BSP/source/smc.s
+
+# target to generate assembly for a file
+BSP/source/smc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\smo.elf.dir\build.make CMakeFiles/smo.elf.dir/BSP/source/smc.c.s
+.PHONY : BSP/source/smc.c.s
 
 BSP/source/speedPid.obj: BSP/source/speedPid.c.obj
 .PHONY : BSP/source/speedPid.obj
@@ -1789,6 +1861,9 @@ help:
 	@echo ... BSP/source/currentPid.obj
 	@echo ... BSP/source/currentPid.i
 	@echo ... BSP/source/currentPid.s
+	@echo ... BSP/source/encoder.obj
+	@echo ... BSP/source/encoder.i
+	@echo ... BSP/source/encoder.s
 	@echo ... BSP/source/hfi.obj
 	@echo ... BSP/source/hfi.i
 	@echo ... BSP/source/hfi.s
@@ -1804,6 +1879,12 @@ help:
 	@echo ... BSP/source/param.obj
 	@echo ... BSP/source/param.i
 	@echo ... BSP/source/param.s
+	@echo ... BSP/source/rlsEstimator.obj
+	@echo ... BSP/source/rlsEstimator.i
+	@echo ... BSP/source/rlsEstimator.s
+	@echo ... BSP/source/smc.obj
+	@echo ... BSP/source/smc.i
+	@echo ... BSP/source/smc.s
 	@echo ... BSP/source/speedPid.obj
 	@echo ... BSP/source/speedPid.i
 	@echo ... BSP/source/speedPid.s

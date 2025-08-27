@@ -26,6 +26,7 @@
 #include "mbport.h"
 #include "usart.h"
 #include "port.h"
+#include "if.h"
 /* ----------------------- static functions ---------------------------------*/
 static UCHAR ucRTUByte;
 extern DMA_HandleTypeDef hdma_usart3_rx;
@@ -151,6 +152,7 @@ static void prvvUARTRxISR( void )
 
 void USART3_IRQHandler(void)
 {
+#ifdef USE_MODBUS
     if(__HAL_UART_GET_FLAG(&huart3, UART_FLAG_IDLE) != RESET)
     {
         uint16_t usRxDataLen;
@@ -183,13 +185,13 @@ void USART3_IRQHandler(void)
     {
         pxMBFrameCBTransmitterEmpty();
     }
-
-    //HAL_UART_IRQHandler(&huart3);
+#else
+    HAL_UART_IRQHandler(&huart3);
+#endif
     /* USER CODE BEGIN USART3_IRQn 1 */
 
     /* USER CODE END USART3_IRQn 1 */
 }
-
 
 
 

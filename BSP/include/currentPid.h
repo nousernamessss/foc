@@ -4,6 +4,9 @@
 #include "arm_math.h"
 #include "main.h"
 #include "param.h"
+#include "encoder.h"
+#include "SMO.h"
+#include "if.h"
 
 typedef struct
 {

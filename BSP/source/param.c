@@ -6,6 +6,7 @@ void paramInit(tMotorParam *motor_param)
 {
     motor_param->udc = 24.f;
     motor_param->Ts = 8000.f;
+    motor_param->J = 0.000028f;
     motor_param->Rs = 0.89f;
     motor_param->Ls = 0.00062F;
     motor_param->pair = 4.f;

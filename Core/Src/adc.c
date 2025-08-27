@@ -20,7 +20,12 @@
 /* Includes ------------------------------------------------------------------*/
 #include "adc.h"
 
+#include "speedPid.h"
+
 /* USER CODE BEGIN 0 */
+static float iq_last_tick = 0.0f;
+static float id_last_tick = 0.0f;
+
 float current[3] = {0.f};
 float speed[3] = {0.f};
 float theta[3] = {0.f};
@@ -407,14 +412,40 @@ void HAL_ADCEx_InjectedConvCpltCallback(ADC_HandleTypeDef *hadc)
         svpwmParam.ib = current[1];
         svpwmParam.ic = current[2];
 
+#ifdef USE_ENCORDER
+        encoderStep();
+#else
         ifStep();
 
-        speed[0] = SMO_Controller.omega_estimated / 4.f * 30.f / PI;
+#endif
+        speed[0] = speedParam.speedRef;
         speed[1] = SMO_Controller.omega_filtered / 4.f * 30.f / PI;
+        speed[2] = encoderParam.motorSpeedRpm;
         theta[0] = svpwmParam.theta;
         theta[1] = SMO_Controller.theta_estimated;
-        theta[2] = (svpwmParam.theta - SMO_Controller.theta_estimated) * 180.f / PI;
-        //sendData(&huart3, current);
+        theta[2] = hfiParam.estimatedAngleRad;
+
+        float Rs, Ls, lambda;
+#ifdef USE_ENCORDER
+#ifdef PARAM_IDENTIFIER
+        identifyAllParams(&rlsIdentifier, svpwmParam.ud, svpwmParam.uq, svpwmParam.id, svpwmParam.iq,
+                      encoderParam.motorSpeedRpm * motorParam.pair * PI / 30.f, speedParam.speedRef * motorParam.pair * PI / 30.f, motorParam.period,
+                      &Rs, &Ls, &lambda);
+#endif
+#else
+#ifdef PARAM_IDENTIFIER
+        identifyAllParams(&rlsIdentifier, svpwmParam.ud, svpwmParam.uq, svpwmParam.id, svpwmParam.iq,
+                      SMO_Controller.omega_filtered, speedParam.speedRef * motorParam.pair * PI / 30.f, motorParam.period,
+                      &Rs, &Ls, &lambda);
+#endif
+#endif
+        vofaAddFloatToFrame(speed, 3);
+        vofaAddFloatToFrame(current, 3);
+        vofaAddFloatToFrame(&svpwmParam.ud, 2);
+        vofaAddFloatToFrame(&svpwmParam.id, 2);
+        vofaAddFloatToFrame(&idParam.currentRef, 1);
+        vofaAddFloatToFrame(&Rs, 3);
+        sendData(&huart3);
         //CAN_SendFloat(&hfdcan1, 0x201, current[0]);
         __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, svpwmParam.tCmp1);
         __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, svpwmParam.tCmp2);

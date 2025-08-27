@@ -73,7 +73,7 @@ CMakeFiles/smo.elf.dir/BSP/source/if.c.obj: D:\BLDC\smo\BSP\source\if.c \
  d:\gun-tools\arm-embedded-tools\lib\gcc\arm-none-eabi\9.2.1\include-fixed\syslimits.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\limits.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\sys\syslimits.h \
- D:\BLDC\smo\BSP\include/hfi.h \
+ D:\BLDC\smo\BSP\include/hfi.h D:\BLDC\smo\BSP\include/smc.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\stdlib.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\machine\stdlib.h \
  d:\gun-tools\arm-embedded-tools\arm-none-eabi\include\alloca.h \

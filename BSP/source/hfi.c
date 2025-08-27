@@ -28,15 +28,12 @@ void hfiInit(thfiParam *param)
 
 void hfiSeparateCurrents(thfiParam *param, float total_ialpha, float total_ibeta)
 {
-    // 实现公式(6) - 提取高频分量
     param->ialphaHighFrequency = (total_ialpha - 2.0f * param->ialphaLast + param->ialphaLastLast) / 4.0f;
     param->ibetaHighFrequency = (total_ibeta  - 2.0f * param->ibetaLast  + param->ibetaLastLast) / 4.0f;
 
-    // 实现公式(7) - 提取基波分量
     param->ialphaLowFrequency = (total_ialpha + 2.0f * param->ialphaLast + param->ialphaLastLast) / 4.0f;
     param->ibetaLowFrequency = (total_ibeta  + 2.0f * param->ibetaLast  + param->ibetaLastLast) / 4.0f;
 
-    // 更新电流历史值
     param->ialphaLastLast = param->ialphaLast;
     param->ibetaLastLast = param->ibetaLast;
     param->ialphaLast = total_ialpha;

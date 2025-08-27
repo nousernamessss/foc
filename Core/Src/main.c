@@ -33,11 +33,13 @@
 #include "communication.h"
 #include "param.h"
 #include "currentPid.h"
+#include "encoder.h"
 #include "speedPid.h"
 #include "led.h"
 #include "mb.h"
 #include "SMO.h"
 #include "hfi.h"
+#include "rlsEstimator.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -115,10 +117,20 @@ int main(void)
   MX_FDCAN1_Init();
   MX_TIM3_Init();
   MX_TIM4_Init();
+  MX_TIM6_Init();
   /* USER CODE BEGIN 2 */
+#ifdef USE_MODBUS
   eMBInit(MB_RTU, 0X01, 0x01, 115200, MB_PAR_NONE);
   eMBEnable();
+#endif
   paramInit(&motorParam);
+  communicationInit();
+  encoderInit(&encoderParam);
+#ifdef PARAM_IDENTIFIER
+  triWaveInit(&triWaveGenerator, 100.f, 0.5f, -0.75f, 1.f / motorParam.period);
+  identifyParamsInit(&rlsIdentifier);
+#endif
+  smcInit(&smcParam);
   Estimator_Init(&SMO_Controller, 8.f, 150.f, 200.f, 2500.f, motorParam.Rs, motorParam.Ls, motorParam.period, 10.f);
   hfiInit(&hfiParam);
   svpwmParamInit();
@@ -140,13 +152,12 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+#ifdef USE_MODBUS
     eMBPoll();
     uint16_t coilValue = (ucRegCoilsBuf[0] << 8) | ucRegCoilsBuf[1];
 
     if (coilValue == (1 << 8))
     {
-      motorParam.runFlag = 1;  // 启动电机
-
       HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
       HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
       HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_3);
@@ -155,20 +166,53 @@ int main(void)
       HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_1);
       HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_2);
       HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_3);
+
+      if (motorParam.runFlag == 0)
+      {
+        HAL_TIM_Encoder_Start(&htim4, TIM_CHANNEL_ALL);
+        HAL_TIM_Base_Start_IT(&htim6);
+      }
+
+      motorParam.runFlag = 1;  // 启动电机
     }
 
-    // else if (coilValue == 0)
-    // {
-    //   motorParam.stopFlag = 1;  // 停止电机
-    //
-    //   HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_1);
-    //   HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_2);
-    //   HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_3);
-    //   HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_4);
-    //   HAL_TIMEx_PWMN_Stop(&htim1, TIM_CHANNEL_1);
-    //   HAL_TIMEx_PWMN_Stop(&htim1, TIM_CHANNEL_2);
-    //   HAL_TIMEx_PWMN_Stop(&htim1, TIM_CHANNEL_3);
-    // }
+    else if (coilValue == 0)
+    {
+      motorParam.runFlag = 0;  // 停止电机
+
+#ifdef  USE_ENCORDER
+      HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_1);
+      HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_2);
+      HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_3);
+      HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_4);
+      HAL_TIMEx_PWMN_Stop(&htim1, TIM_CHANNEL_1);
+      HAL_TIMEx_PWMN_Stop(&htim1, TIM_CHANNEL_2);
+      HAL_TIMEx_PWMN_Stop(&htim1, TIM_CHANNEL_3);
+
+      resetCurrentPidParam(&idParam);
+      resetCurrentPidParam(&iqParam);
+      resetSpeedPidParam(&speedParam);
+      //resetRlsEstimator(&rlsEstimator);
+      motor_state = MOTOR_STATE_STOP;
+#else
+      HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_1);
+      HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_2);
+      HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_3);
+      HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_4);
+      HAL_TIMEx_PWMN_Stop(&htim1, TIM_CHANNEL_1);
+      HAL_TIMEx_PWMN_Stop(&htim1, TIM_CHANNEL_2);
+      HAL_TIMEx_PWMN_Stop(&htim1, TIM_CHANNEL_3);
+
+      Estimator_Init(&SMO_Controller, 8.f, 150.f, 200.f, 2500.f, motorParam.Rs, motorParam.Ls, motorParam.period, 10.f);
+      resetCurrentPidParam(&idParam);
+      resetCurrentPidParam(&iqParam);
+      resetSpeedPidParam(&speedParam);
+      // resetRlsEstimator(&rlsEstimator);
+      motor_state = MOTOR_STATE_STOP;
+
+#endif
+    }
+#endif
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

@@ -58,9 +58,11 @@
 extern ADC_HandleTypeDef hadc1;
 extern ADC_HandleTypeDef hadc2;
 extern COMP_HandleTypeDef hcomp1;
-extern FDCAN_HandleTypeDef hfdcan1;
+extern DAC_HandleTypeDef hdac1;
+extern DAC_HandleTypeDef hdac3;
 extern TIM_HandleTypeDef htim1;
 extern TIM_HandleTypeDef htim3;
+extern TIM_HandleTypeDef htim6;
 extern DMA_HandleTypeDef hdma_usart3_tx;
 extern DMA_HandleTypeDef hdma_usart3_rx;
 extern UART_HandleTypeDef huart3;
@@ -250,20 +252,6 @@ void ADC1_2_IRQHandler(void)
 }
 
 /**
-  * @brief This function handles FDCAN1 interrupt 0.
-  */
-void FDCAN1_IT0_IRQHandler(void)
-{
-  /* USER CODE BEGIN FDCAN1_IT0_IRQn 0 */
-
-  /* USER CODE END FDCAN1_IT0_IRQn 0 */
-  HAL_FDCAN_IRQHandler(&hfdcan1);
-  /* USER CODE BEGIN FDCAN1_IT0_IRQn 1 */
-
-  /* USER CODE END FDCAN1_IT0_IRQn 1 */
-}
-
-/**
   * @brief This function handles TIM1 break interrupt and TIM15 global interrupt.
   */
 void TIM1_BRK_TIM15_IRQHandler(void)
@@ -322,7 +310,16 @@ void TIM3_IRQHandler(void)
 /**
   * @brief This function handles USART3 global interrupt / USART3 wake-up interrupt through EXTI line 28.
   */
-
+// void USART3_IRQHandler(void)
+// {
+//   /* USER CODE BEGIN USART3_IRQn 0 */
+// // // // // //
+//   /* USER CODE END USART3_IRQn 0 */
+//   HAL_UART_IRQHandler(&huart3);
+//   /* USER CODE BEGIN USART3_IRQn 1 */
+// // // // // //
+//   /* USER CODE END USART3_IRQn 1 */
+// }
 
 /**
   * @brief This function handles EXTI line[15:10] interrupts.
@@ -338,6 +335,22 @@ void EXTI15_10_IRQHandler(void)
   /* USER CODE BEGIN EXTI15_10_IRQn 1 */
 
   /* USER CODE END EXTI15_10_IRQn 1 */
+}
+
+/**
+  * @brief This function handles TIM6 global interrupt, DAC1 and DAC3 channel underrun error interrupts.
+  */
+void TIM6_DAC_IRQHandler(void)
+{
+  /* USER CODE BEGIN TIM6_DAC_IRQn 0 */
+
+  /* USER CODE END TIM6_DAC_IRQn 0 */
+  HAL_TIM_IRQHandler(&htim6);
+  HAL_DAC_IRQHandler(&hdac1);
+  HAL_DAC_IRQHandler(&hdac3);
+  /* USER CODE BEGIN TIM6_DAC_IRQn 1 */
+
+  /* USER CODE END TIM6_DAC_IRQn 1 */
 }
 
 /**

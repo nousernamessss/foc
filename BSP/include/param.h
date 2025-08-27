@@ -5,6 +5,7 @@
 
 typedef struct
 {
+    float J;
     float Ls;
     float Rs;
     float lambda;

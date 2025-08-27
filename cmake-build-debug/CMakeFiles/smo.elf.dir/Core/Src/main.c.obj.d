@@ -78,11 +78,14 @@ CMakeFiles/smo.elf.dir/Core/Src/main.c.obj: D:\BLDC\smo\Core\Src\main.c \
  D:\BLDC\smo\BSP\include/svpwm.h D:\BLDC\smo\BSP\include/currentPid.h \
  D:\BLDC\smo\BSP\include/param.h D:\BLDC\smo\BSP\include/if.h \
  D:\BLDC\smo\BSP\include/svpwm.h D:\BLDC\smo\BSP\include/hfi.h \
- D:\BLDC\smo\BSP\include/SMO.h D:\BLDC\smo\Core\Inc/tim.h \
- D:\BLDC\smo\Core\Inc/comp.h D:\BLDC\smo\Core\Inc/dac.h \
- D:\BLDC\smo\Core\Inc/dma.h D:\BLDC\smo\Core\Inc/fdcan.h \
- D:\BLDC\smo\Core\Inc/opamp.h D:\BLDC\smo\Core\Inc/tim.h \
- D:\BLDC\smo\Core\Inc/gpio.h D:\BLDC\smo\BSP\include/param.h \
- D:\BLDC\smo\BSP\include/speedPid.h D:\BLDC\smo\BSP\include/led.h \
- D:\BLDC\smo\modbus\include/mb.h D:\BLDC\smo\modbus\include/mbport.h \
- D:\BLDC\smo\modbus\include/mbproto.h D:\BLDC\smo\BSP\include/hfi.h
+ D:\BLDC\smo\BSP\include/smc.h D:\BLDC\smo\BSP\include/SMO.h \
+ D:\BLDC\smo\Core\Inc/tim.h D:\BLDC\smo\BSP\include/encoder.h \
+ D:\BLDC\smo\BSP\include/led.h D:\BLDC\smo\BSP\include/if.h \
+ D:\BLDC\smo\BSP\include/rlsEstimator.h D:\BLDC\smo\Core\Inc/comp.h \
+ D:\BLDC\smo\Core\Inc/dac.h D:\BLDC\smo\Core\Inc/dma.h \
+ D:\BLDC\smo\Core\Inc/fdcan.h D:\BLDC\smo\Core\Inc/opamp.h \
+ D:\BLDC\smo\Core\Inc/tim.h D:\BLDC\smo\Core\Inc/gpio.h \
+ D:\BLDC\smo\BSP\include/param.h D:\BLDC\smo\BSP\include/speedPid.h \
+ D:\BLDC\smo\BSP\include/led.h D:\BLDC\smo\modbus\include/mb.h \
+ D:\BLDC\smo\modbus\include/mbport.h D:\BLDC\smo\modbus\include/mbproto.h \
+ D:\BLDC\smo\BSP\include/hfi.h

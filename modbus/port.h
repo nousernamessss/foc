@@ -39,7 +39,7 @@ extern volatile uint16_t usMBARMRxReadPos; // 缓冲区读取位置
 //保持寄存器起始地址
 #define REG_HOLDING_START     0x0000
 //保持寄存器数量
-#define REG_HOLDING_NREGS     8
+#define REG_HOLDING_NREGS     12
 
 //线圈起始地址
 #define REG_COILS_START       0x0000
@@ -53,6 +53,10 @@ extern volatile uint16_t usMBARMRxReadPos; // 缓冲区读取位置
 
 #define ENTER_CRITICAL_SECTION( )   
 #define EXIT_CRITICAL_SECTION( )    
+
+#define START_MOTOR_COIL    8  // 启动电机的线圈地址
+#define STOP_MOTOR_COIL     9  // 停止电机的线圈地址 (未使用)
+#define RESET_MCU_COIL      10 // 复位MCU的线圈地址
 
 typedef uint8_t BOOL;
 

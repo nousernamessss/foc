@@ -183,7 +183,7 @@ void ReceiveFirmware_XMODEM(void)
     {
         packet_status = _receive_packet(packet_buffer, current_packet_number);
 
-    packet_received: // 使用goto来处理第一次接收的特殊情况
+        packet_received: // 使用goto来处理第一次接收的特殊情况
         if (packet_status == 0) // 成功接收到一个有效数据包
         {
             // 将数据写入Flash (此函数需要您自己实现)

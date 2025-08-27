@@ -1,35 +1,50 @@
 #include "svpwm.h"
 
+#include "encoder.h"
 #include "param.h"
 
 tsvpwmParam svpwmParam;
 
-void svpwmParamInit(void)
+inline void svpwmParamInit(void)
 {
     memset(&svpwmParam, 0, sizeof(svpwmParam));
 }
-void antiClarkConvert(void)
+
+inline void antiClarkConvert(void)
 {
     svpwmParam.ua = svpwmParam.ualpha;
     svpwmParam.ub = (-1.f / 2.f) * svpwmParam.ualpha + (sqrtf(3) / 2.f) * svpwmParam.ubeta;
     svpwmParam.uc = (-1.f / 2.f) * svpwmParam.ualpha - (sqrtf(3) / 2.f) * svpwmParam.ubeta;
 }
 
-void antiParkConvert(void)
+inline void antiParkConvert(void)
 {
     svpwmParam.ualpha = svpwmParam.ud * arm_cos_f32(svpwmParam.theta) -
                     svpwmParam.uq * arm_sin_f32(svpwmParam.theta);
     svpwmParam.ubeta = svpwmParam.ud * arm_sin_f32(svpwmParam.theta) +
                     svpwmParam.uq * arm_cos_f32(svpwmParam.theta);
+    
+
+    // float m = (2.f / (encoderParam.motorSpeedRpm * motorParam.pair * PI / 30.f * motorParam.period)) *
+    //             arm_sin_f32(0.5f * encoderParam.motorSpeedRpm * motorParam.pair * PI / 30.f * motorParam.period);
+    // float theatDelay = svpwmParam.theta + 1.0f * encoderParam.motorSpeedRpm * motorParam.pair * PI / 30.f * motorParam.period;
+    // if (encoderParam.motorSpeedRpm * motorParam.pair * PI / 30.f == 0)
+    // {
+    //     m = 1.f;
+    //     theatDelay = svpwmParam.theta;
+    // }
+    //
+    // svpwmParam.ualpha = m * (arm_cos_f32(theatDelay) * svpwmParam.ud - arm_sin_f32(theatDelay) * svpwmParam.uq);
+    // svpwmParam.ubeta = m * (arm_sin_f32(theatDelay) * svpwmParam.ud + arm_cos_f32(theatDelay) * svpwmParam.uq);
 }
 
-void clarkConvert(void)
+inline void clarkConvert(void)
 {
     svpwmParam.ialpha = svpwmParam.ia;
     svpwmParam.ibeta = (svpwmParam.ib - svpwmParam.ic) / sqrtf(3.0f);
 }
 
-void parkConvert(void)
+inline void parkConvert(void)
 {
     svpwmParam.id = svpwmParam.ialpha * arm_cos_f32(svpwmParam.theta) +
                     svpwmParam.ibeta * arm_sin_f32(svpwmParam.theta);

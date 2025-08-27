@@ -37,6 +37,9 @@ extern "C" {
 #include "if.h"
 #include "SMO.h"
 #include "tim.h"
+#include "encoder.h"
+#include "rlsEstimator.h"
+#include "port.h"
 /* USER CODE END Includes */
 
 extern ADC_HandleTypeDef hadc1;
@@ -44,7 +47,7 @@ extern ADC_HandleTypeDef hadc1;
 extern ADC_HandleTypeDef hadc2;
 
 /* USER CODE BEGIN Private defines */
-
+extern float theta[3];
 /* USER CODE END Private defines */
 
 void MX_ADC1_Init(void);

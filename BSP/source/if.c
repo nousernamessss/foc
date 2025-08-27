@@ -11,13 +11,13 @@
 #include "speedPid.h"
 
 const float prePositionTime = 1.f;
-const float rampUpTime = 1.f;
+const float rampUpTime = 2.f;
 
 const float targetSpeed = 500.f;
 const float targetSpeedRad = targetSpeed * 4.f * PI / 30.f;
 const float acceleration = targetSpeedRad / rampUpTime;
 
-static eMotorState motor_state = MOTOR_STATE_STOP;
+eMotorState motor_state = MOTOR_STATE_STOP;
 static float state_counter = 0;
 static float currentSpeed = 0.f;
 
@@ -103,16 +103,14 @@ void ifStep(void)
                     }
                     else
                     {
-                        hfiParam.polarityCorrectionAngleRad = PI; // 方向相反，补偿180度
+                        hfiParam.polarityCorrectionAngleRad = PI;
                     }
 
                     float initial_angle_rad = hfiParam.estimatedAngleRad + hfiParam.polarityCorrectionAngleRad;
 
-                    // --- 辨识完成 ---
-                    motor_state = MOTOR_STATE_RAMP_UP; // 切换到下一个主状态
+                    motor_state = MOTOR_STATE_RAMP_UP;
                     state_counter = 0;
 
-                    // 【关键】用我们辨识出的角度来初始化爬坡状态的角度
                     svpwmParam.theta = initial_angle_rad;
                 }
             }
@@ -198,28 +196,47 @@ void ifStep(void)
             {
                 motor_state = MOTOR_STATE_RUN;
                 state_counter = 0;
+                speedParam.integral_state = svpwmParam.iq;
             }
             break;
         }
 
         case MOTOR_STATE_RUN:
         {
-            led1Ctrl(LED_OFF);
+            float speed = SMO_Controller.omega_filtered / 4.f * 30.f / PI;
+
+            uint32_t *pSpeed = (uint32_t *)&speed;
+
+            usRegHoldingBuf[2] = (*pSpeed & 0xFFFF0000) >> 16;
+            usRegHoldingBuf[3] = (*pSpeed & 0x0000FFFF);
+
             Estimator_Step(&SMO_Controller, svpwmParam.ualpha, svpwmParam.ubeta, svpwmParam.ialpha, svpwmParam.ibeta);
             svpwmParam.theta = SMO_Controller.theta_estimated;
 
             clarkConvert();
             parkConvert();
 
-            setSpeedRef(&speedParam, targetSpeed + i * 100.f);
+#ifdef NOT_USE_SMC
+            setSpeedRef(&speedParam, 0.f);
             setSpeedFdk(&speedParam, SMO_Controller.omega_filtered / 4.f * 30.f / PI);
 
             speedPidCalculate();
+#ifdef PARAM_IDENTIFIER
+            setIdRef(&idParam, 0.f +  triWaveGenerate(&triWaveGenerator));
+#else
             setIdRef(&idParam, 0.f);
+#endif
             setIqRef(&iqParam, speedParam.out);
             setIdFdk(&idParam, svpwmParam.id);
             setIqFdk(&iqParam, svpwmParam.iq);
-
+#else
+            float speedRef = setSmcSpeedRef();
+            smcCalculate(&smcParam, speedRef, SMO_Controller.omega_filtered / 4.f * 30.f / PI);
+            setIdRef(&idParam, 0.f);
+            setIqRef(&iqParam, smcParam.output);
+            setIdFdk(&idParam, svpwmParam.id);
+            setIqFdk(&iqParam, svpwmParam.iq);
+#endif
             currentPidCalculate();
             antiParkConvert();
             antiClarkConvert();
